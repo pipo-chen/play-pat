@@ -11,4 +11,4 @@ PAT (Advanced Level) Practice
 [自测-4 Have Fun with Numbers (20point(s))](https://pintia.cn/problem-sets/17/problems/263) | 20 ｜ [_4](https://github.com/pipo-chen/play-pat/tree/master/data-structure/_4) | C++
 [自测-5 Shuffling Machine (20point(s))](https://pintia.cn/problem-sets/17/problems/264) | 20 ｜ [_5](https://github.com/pipo-chen/play-pat/tree/master/data-structure/_5) | C++
 [自测-5 Shuffling Machine (20point(s))](https://pintia.cn/problem-sets/17/problems/264) | 20 ｜ [_5](https://github.com/pipo-chen/play-pat/tree/master/data-structure/_5) | C++
-[自测-5 Shuffling Machine (20point(s))](https://pintia.cn/problem-sets/434/problems/5404) | 20 ｜[_5](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1_1) | C++
+[实例1.1 最大子列和问题 (20point(s)) (20point(s))](https://pintia.cn/problem-sets/434/problems/5404) | 20 ｜ _1.1 (https://github.com/pipo-chen/play-pat/tree/master/data-structure/1_1) | C++

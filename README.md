@@ -2,18 +2,17 @@
 PAT (Advanced Level) Practice
 
 ## 浙大PTA 数据结构起步能力自测题
-
-题目 | 代码地址 | 语言 ｜  注意点
----- | --- | --- | --- ｜
-[自测-1 打印沙漏 (20point(s))](https://pintia.cn/problem-sets/17/problems/260) | 20 ｜ [_1](https://github.com/pipo-chen/play-pat/tree/master/data-structure/data-structure) | C++| -
-[自测-2 素数对猜想 (20point(s))](https://pintia.cn/problem-sets/17/problems/261) | 20 ｜ [_2](https://github.com/pipo-chen/play-pat/tree/master/data-structure/_2) | C++| -
-[自测-3 数组元素循环右移问题 (20point(s))](https://pintia.cn/problem-sets/17/problems/262) | 20 ｜ [_3](https://github.com/pipo-chen/play-pat/tree/master/data-structure/_3) | C++| -
-[自测-4 Have Fun with Numbers (20point(s))](https://pintia.cn/problem-sets/17/problems/263) | 20 ｜ [_4](https://github.com/pipo-chen/play-pat/tree/master/data-structure/_4) | C++| -
-[自测-5 Shuffling Machine (20point(s))](https://pintia.cn/problem-sets/17/problems/264) | 20 ｜ [_5](https://github.com/pipo-chen/play-pat/tree/master/data-structure/_5) | C++| -
-[自测-5 Shuffling Machine (20point(s))](https://pintia.cn/problem-sets/17/problems/264) | 20 ｜ [_5](https://github.com/pipo-chen/play-pat/tree/master/data-structure/_5) | C++ | -
-[实例1.1 最大子列和问题 (20point(s)) (20point(s))](https://pintia.cn/problem-sets/434/problems/5404) | 20 ｜ [_1.1](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1_1) | C++ | -
-[1001 害死人不偿命的(3n+1)猜想 (15point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805325918486528) | 15 ｜ [1001](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1001) | C++ | -
-[1011 A+B 和 C (15point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805312417021952) | 15 ｜ [1011](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1011) | C++ | 整型范围
-[1016 部分A+B (15point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805306310115328) | 15 ｜ [1016](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1016) | C++ | sum = sum * 10 + pa
-[1026 程序运行时间 (15point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805295203598336) | 15 ｜ [1026](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1026) | C++ | 高位用 0 补充
-[1046 划拳 (15point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805277847568384) | 15 ｜ [1046](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1046) | C++ | 三种情况，甲赢/乙赢/同赢同输
+|  题目   | 代码地址  | 语言   | 备注  |
+|  ----  | ----  |  ----  | ----  |
+[自测-1 打印沙漏 (20point(s))](https://pintia.cn/problem-sets/17/problems/260) | 20 ｜ [_1](https://github.com/pipo-chen/play-pat/tree/master/data-structure/data-structure) | C++| - |
+[自测-2 素数对猜想 (20point(s))](https://pintia.cn/problem-sets/17/problems/261) | 20 ｜ [_2](https://github.com/pipo-chen/play-pat/tree/master/data-structure/_2) | C++| -|
+[自测-3 数组元素循环右移问题 (20point(s))](https://pintia.cn/problem-sets/17/problems/262) | 20 ｜ [_3](https://github.com/pipo-chen/play-pat/tree/master/data-structure/_3) | C++| -|
+[自测-4 Have Fun with Numbers (20point(s))](https://pintia.cn/problem-sets/17/problems/263) | 20 ｜ [_4](https://github.com/pipo-chen/play-pat/tree/master/data-structure/_4) | C++| - |
+[自测-5 Shuffling Machine (20point(s))](https://pintia.cn/problem-sets/17/problems/264) | 20 ｜ [_5](https://github.com/pipo-chen/play-pat/tree/master/data-structure/_5) | C++| - |
+[自测-5 Shuffling Machine (20point(s))](https://pintia.cn/problem-sets/17/problems/264) | 20 ｜ [_5](https://github.com/pipo-chen/play-pat/tree/master/data-structure/_5) | C++ | - |
+[实例1.1 最大子列和问题 (20point(s)) (20point(s))](https://pintia.cn/problem-sets/434/problems/5404) | 20 ｜ [_1.1](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1_1) | C++ | -|
+[1001 害死人不偿命的(3n+1)猜想 (15point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805325918486528) | 15 ｜ [1001](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1001) | C++ | -|
+[1011 A+B 和 C (15point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805312417021952) | 15 ｜ [1011](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1011) | C++ | 整型范围|
+[1016 部分A+B (15point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805306310115328) | 15 ｜ [1016](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1016) | C++ | sum = sum * 10 + pa|
+[1026 程序运行时间 (15point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805295203598336) | 15 ｜ [1026](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1026) | C++ | 高位用 0 补充|
+[1046 划拳 (15point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805277847568384) | 15 ｜ [1046](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1046) | C++ | 三种情况，甲赢/乙赢/同赢同输| 

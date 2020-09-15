@@ -4,7 +4,7 @@ PAT (Advanced Level) Practice
 ## 浙大PTA 数据结构起步能力自测题
 
 题目 | 代码地址 | 语言 ｜  注意点
----- | --- | --- | ---
+---- | --- | --- | --- ｜
 [自测-1 打印沙漏 (20point(s))](https://pintia.cn/problem-sets/17/problems/260) | 20 ｜ [_1](https://github.com/pipo-chen/play-pat/tree/master/data-structure/data-structure) | C++| -
 [自测-2 素数对猜想 (20point(s))](https://pintia.cn/problem-sets/17/problems/261) | 20 ｜ [_2](https://github.com/pipo-chen/play-pat/tree/master/data-structure/_2) | C++| -
 [自测-3 数组元素循环右移问题 (20point(s))](https://pintia.cn/problem-sets/17/problems/262) | 20 ｜ [_3](https://github.com/pipo-chen/play-pat/tree/master/data-structure/_3) | C++| -

@@ -15,4 +15,5 @@ PAT (Advanced Level) Practice
 [1001 害死人不偿命的(3n+1)猜想 (15point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805325918486528) | 15 ｜ [1001](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1001) | C++ | -
 [1011 A+B 和 C (15point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805312417021952) | 15 ｜ [1011](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1011) | C++ | 整型范围
 [1016 部分A+B (15point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805306310115328) | 15 ｜ [1016](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1016) | C++ | sum = sum * 10 + pa
-[1026 程序运行时间 (15point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805295203598336) | 15 ｜ [2016](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1026) | C++ | 高位用 0 补充
+[1026 程序运行时间 (15point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805295203598336) | 15 ｜ [1026](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1026) | C++ | 高位用 0 补充
+[1046 划拳 (15point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805277847568384) | 15 ｜ [1046](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1046) | C++ | 三种情况，甲赢/乙赢/同赢同输

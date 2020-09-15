@@ -16,3 +16,4 @@ PAT (Advanced Level) Practice
 [1016 部分A+B (15point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805306310115328) | 15 ｜ [1016](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1016) | C++ | sum = sum * 10 + pa|
 [1026 程序运行时间 (15point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805295203598336) | 15 ｜ [1026](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1026) | C++ | 高位用 0 补充|
 [1046 划拳 (15point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805277847568384) | 15 ｜ [1046](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1046) | C++ | 三种情况，甲赢/乙赢/同赢同输| 
+[1008 数组元素循环右移问题 (20point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805316250615808) | 15|[1008](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1008) | C++|-

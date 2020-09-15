@@ -13,5 +13,6 @@ PAT (Advanced Level) Practice
 [自测-5 Shuffling Machine (20point(s))](https://pintia.cn/problem-sets/17/problems/264) | 20 ｜ [_5](https://github.com/pipo-chen/play-pat/tree/master/data-structure/_5) | C++
 [实例1.1 最大子列和问题 (20point(s)) (20point(s))](https://pintia.cn/problem-sets/434/problems/5404) | 20 ｜ [_1.1](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1_1) | C++
 [1001 害死人不偿命的(3n+1)猜想 (15point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805325918486528) | 15 ｜ [1001](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1001) | C++
-[1011 A+B 和 C (15point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805312417021952) | 15 ｜ [1001](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1011) | C++
-[1016 部分A+B (15point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805306310115328) | 15 ｜ [1001](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1016) | C++
+[1011 A+B 和 C (15point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805312417021952) | 15 ｜ [1011](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1011) | C++
+[1016 部分A+B (15point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805306310115328) | 15 ｜ [1016](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1016) | C++
+[1026 程序运行时间 (15point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805295203598336) | 15 ｜ [2016](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1026) | C++

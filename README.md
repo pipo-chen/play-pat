@@ -23,3 +23,4 @@ PAT (Advanced Level) Practice
 [1008 数组元素循环右移问题 (20point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805316250615808) | 15  [1008](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1008) | C++|-|
 [1012 数字分类 (20point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805311146147840)|15[1012](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1012) | C++|-|
 [1018 锤子剪刀布 (20point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805304020025344)|20[1018](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1018) | C++|-|
+[1042 Shuffling Machine (20point(s))](https://pintia.cn/problem-sets/994805342720868352/problems/994805442671132672)|20[1042](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1042) | C++|注意空格和换行符|

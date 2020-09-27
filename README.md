@@ -11,7 +11,6 @@ PAT (Advanced Level) Practice
 [自测-5 Shuffling Machine (20point(s))](https://pintia.cn/problem-sets/17/problems/264) | 20 ｜ [_5](https://github.com/pipo-chen/play-pat/tree/master/data-structure/_5) | C++| - |
 [自测-5 Shuffling Machine (20point(s))](https://pintia.cn/problem-sets/17/problems/264) | 20 ｜ [_5](https://github.com/pipo-chen/play-pat/tree/master/data-structure/_5) | C++ | - |
 
-
 ## 浙大PTA 入门篇（1）- 入门模拟
 |  题目   | 代码地址  | 语言   | 备注  |
 |  ----  | ----  |  ----  | ----  |

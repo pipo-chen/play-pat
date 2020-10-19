@@ -24,3 +24,4 @@ PAT (Advanced Level) Practice
 [1012 数字分类 (20point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805311146147840)|15[1012](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1012) | C++|-|
 [1018 锤子剪刀布 (20point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805304020025344)|20[1018](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1018) | C++|-|
 [1042 Shuffling Machine (20point(s))](https://pintia.cn/problem-sets/994805342720868352/problems/994805442671132672)|20[1042](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1042) | C++|注意空格和换行符|
+[1046 Shortest Distance (20point(s))](https://pintia.cn/problem-sets/994805342720868352/problems/994805435700199424)|17[1046](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1046) | C++|计算 i -> j 点的时候 进行累加过程可能超时|

@@ -16,11 +16,15 @@ using namespace::std;
 int main() {
     int n;
     scanf("%d",&n);
-    int arr[n], sum = 0, routers, start, end;
+    int arr[n], sum = 0, routers, start, end, dis[n+1];
+
     for (int i = 0; i < n; i++) {
         scanf("%d",&arr[i]);
+        dis[i] = sum;
         sum += arr[i];
     }
+    dis[n] = sum;
+    
     scanf("%d",&routers);
     while (routers > 0) {
         scanf("%d %d",&start, &end);
@@ -29,12 +33,11 @@ int main() {
             end = start;
             start = temp;
         }
-        int sub_sum = 0;
-        for (int i = start - 1; i < end - 1; i++) {
-            sub_sum += arr[i];
-        }
-        sub_sum = sub_sum < sum - sub_sum ? sub_sum : sum-sub_sum;
-        printf("%d\n",sub_sum);
+  
+        int result = dis[end - 1] - dis[start - 1];
+        
+        result = result < sum - result ? result : sum - result;
+        printf("%d\n",result);
         routers --;
     }
     return 0;

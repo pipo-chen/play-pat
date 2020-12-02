@@ -5,6 +5,10 @@
 //  Created by mark on 2020/9/17.
 //  Copyright © 2020 xihe. All rights reserved.
 //
+/**
+ ❌结果：17 分 有一个样例超时
+ 需要预处理 dis 数组和 sun 减少查询对数组的遍历
+ */
 
 #include <iostream>
 using namespace::std;
@@ -12,34 +16,26 @@ using namespace::std;
 int main() {
     int n;
     scanf("%d",&n);
-    int data[n];
-    int length = 0;
+    int arr[n], sum = 0, routers, start, end;
     for (int i = 0; i < n; i++) {
-        scanf("%d",&data[i]);
-        length += data[i];
-       
+        scanf("%d",&arr[i]);
+        sum += arr[i];
     }
-    
-    int count, num1, num2, sum=0, i = 0;
-    scanf("%d",&count);
-    int result[count];
-    
-    while (i < count) {
-        scanf("%d %d",&num1,&num2);
-        sum = 0;
-        if (num1 > num2) {
-            int temp = num2;
-            num2 = num1;
-            num1 = temp;
+    scanf("%d",&routers);
+    while (routers > 0) {
+        scanf("%d %d",&start, &end);
+        if (start > end) {
+            int temp = end;
+            end = start;
+            start = temp;
         }
-        
-        for (int k = num1 - 1; k < num2 - 1; k++) {
-            sum += data[k];
+        int sub_sum = 0;
+        for (int i = start - 1; i < end - 1; i++) {
+            sub_sum += arr[i];
         }
-        result[i] = sum < length - sum ? sum : length - sum;
-        printf("%d\n",result[i]);
-        i++;
+        sub_sum = sub_sum < sum - sub_sum ? sub_sum : sum-sub_sum;
+        printf("%d\n",sub_sum);
+        routers --;
     }
-    
     return 0;
 }

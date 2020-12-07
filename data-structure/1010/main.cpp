@@ -17,18 +17,26 @@ int main(int argc, const char * argv[]) {
         x[e] += k;
     }
     int count = 0;
+   
     for (int i = 1000; i > 0; i--) {
         if (x[i] != 0) {
-            printf("%d %d",i * x[i], i - 1);
-            
-            if (i != 1) {
-                printf(" ");
-            }
             count++;
         }
     }
+    
     if (count == 0) {
         printf("0 0");
+    } else {
+        for (int i = 1000; i > 0; i--) {
+            
+            if (x[i] != 0) {
+                printf("%d %d",i * x[i], i - 1);
+                count--;
+                if (count != 0)
+                    printf(" ");
+            }
+           
+        }
     }
     printf("\n");
     return 0;

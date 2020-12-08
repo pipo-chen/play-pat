@@ -39,4 +39,5 @@ PAT (Advanced Level) Practice
 | 4 ｜ [1032 挖掘机技术哪家强 (20point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805289432236032) | 20  [1032](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1032) | C++ |  统计排序 记录最大值所在的下标位置即可 |
 | 5 ｜ [1011 World Cup Betting (20point(s))](https://pintia.cn/problem-sets/994805342720868352/problems/994805504927186944) | 20  [1011](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1011) | C++ | 获取每组最大数所在的下标，根据下标返回字母|
 | 6 ｜ [1006 Sign In and Sign Out (25point(s))](https://pintia.cn/problem-sets/994805342720868352/problems/994805516654460928) | 25  [1006](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1006) | C++ | 注意：1. 字符串开辟的空间要大于15；2. 计算结束时间的时候算式变量写错；字符数组拷贝的时候可以调用 strcpy(arr1,arr2) 函数|
+| 7 ｜ [1036 Boys vs Girls (25point(s))](https://pintia.cn/problem-sets/994805342720868352/problems/994805453203030016) | 25  [1036](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1036) | C++ | 注意题意：女生中最高分 - 男生中最低分；则修改过程：1. 改掉女生最高值初始默认；2. 改掉比较当不存在女生或者不存在男生的时候，与其初始值-1和101分别进行比较|
 

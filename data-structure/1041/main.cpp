@@ -7,27 +7,29 @@
 //
 
 #include <iostream>
+#include <cstdio>
 using namespace std;
 
-int main(int argc, const char * argv[]) {
-    int n, m;
-    scanf("%d",&n);
-    long long ids[n];
-    int tseats[n];
-    int seats[n];
+const int maxn = 1001;
+struct Student {
+    long long id;
+    int examseat;
+} testSeat[maxn];
+
+int main() {
+    int n, m, seat, examSeat;
+    long long Id;
+    scanf("%d", &n);
     for (int i = 0; i < n; i++) {
-        scanf("%lld %d %d", &ids[i], &tseats[i], &seats[i]);
+        scanf("%lld %d %d",&Id,&seat,&examSeat);
+        testSeat[seat].id = Id;
+        testSeat[seat].examseat = examSeat;
     }
+    
     scanf("%d",&m);
     int target;
     for (int i = 0; i < m; i++) {
-        scanf("%d",&target);
-        for (int j = 0; j < n; j++) {
-            if (tseats[j] == target) {
-                printf("%lld %d\n",ids[j], seats[j]);
-            }
-        }
+        scanf("%d", &target);
+        printf("%lld %d\n",testSeat[target].id, testSeat[target].examseat);
     }
-    
-    return 0;
 }

@@ -34,4 +34,5 @@ PAT (Advanced Level) Practice
 |  题目   | 代码地址  | 语言   | 备注  |
 |  ----  | ----  |  ----  | ----  |
 | 1 ｜ [1041 考试座位号 (15point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805281567916032) | 15  [1041](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1041) | C++ | longlong 最小：-9223372036854775808 long 最小：-2147483648|
+| 2 ｜ [1004 成绩排名 (20point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805321640296448) | 20  [1004](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1004) | C++ |  利用结构体的方式进行对象创建；临时存放 max 和 min|
 

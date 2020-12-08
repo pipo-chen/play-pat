@@ -36,17 +36,23 @@ int main(int argc, const char * argv[]) {
             ans_male = temp;
         }
     }
-    if (ans_male.grade != MAX_GRADE && ans_female.grade != MIN_GRADE) {
-        printf("%s %s\n%s %s\n%d\n",ans_female.name, ans_female.id, ans_male.name,ans_male.id,ans_female.grade - ans_male.grade);
+    
+    if (ans_female.grade == MIN_GRADE) {
+        printf("Absent\n");
+    } else {
+        printf("%s %s\n",ans_female.name, ans_female.id);
     }
-    else if (ans_male.grade == MAX_GRADE && ans_female.grade != MIN_GRADE) {
-        printf("%s %s\nAbsent\nNA\n",ans_female.name, ans_female.id);
+    if (ans_male.grade == MAX_GRADE) {
+        printf("Absent\n");
+    } else {
+        printf("%s %s\n",ans_male.name, ans_male.id);
     }
-    else if (ans_male.grade != MAX_GRADE && ans_female.grade == MIN_GRADE) {
-        printf("Absent\n%s %s\nNA\n",ans_male.name, ans_male.id);
-    }
-    else {
+    
+    if (ans_female.grade != MIN_GRADE && ans_male.grade != MAX_GRADE) {
+        printf("%d\n",ans_female.grade - ans_male.grade);
+    } else {
         printf("NA\n");
     }
+    
     return 0;
 }

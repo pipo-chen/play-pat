@@ -35,4 +35,5 @@ PAT (Advanced Level) Practice
 |  ----  | ----  |  ----  | ----  |
 | 1 ｜ [1041 考试座位号 (15point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805281567916032) | 15  [1041](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1041) | C++ | longlong 最小：-9223372036854775808 long 最小：-2147483648|
 | 2 ｜ [1004 成绩排名 (20point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805321640296448) | 20  [1004](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1004) | C++ |  利用结构体的方式进行对象创建；临时存放 max 和 min|
+| 3 ｜ [1028 人口普查 (20point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805293282607104) | 20  [1028](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1028) | C++ |  1. 把比较日期的方式提取出来。2. 日期的输入方式 3. 当所有的日期都不符合条件状态下 返回 0 否则“输出错误”|
 

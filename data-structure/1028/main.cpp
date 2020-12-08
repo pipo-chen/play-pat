@@ -71,8 +71,10 @@ int main(int argc, const char * argv[]) {
         }
         
     }
-    
-    printf("%d %s %s\n",count,ans_old.name, ans_young.name);
+    if (count != 0)
+        printf("%d %s %s\n",count,ans_old.name, ans_young.name);
+    else
+        printf("%d\n",count);
 
     return 0;
 }

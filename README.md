@@ -38,3 +38,5 @@ PAT (Advanced Level) Practice
 | 3 ｜ [1028 人口普查 (20point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805293282607104) | 20  [1028](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1028) | C++ |  1. 把比较日期的方式提取出来。2. 日期的输入方式 3. 当所有的日期都不符合条件状态下 返回 0 否则“输出错误”|
 | 4 ｜ [1032 挖掘机技术哪家强 (20point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805289432236032) | 20  [1032](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1032) | C++ |  统计排序 记录最大值所在的下标位置即可 |
 | 5 ｜ [1011 World Cup Betting (20point(s))](https://pintia.cn/problem-sets/994805342720868352/problems/994805504927186944) | 20  [1011](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1011) | C++ | 获取每组最大数所在的下标，根据下标返回字母|
+| 6 ｜ [1006 Sign In and Sign Out (25point(s))](https://pintia.cn/problem-sets/994805342720868352/problems/994805516654460928) | 25  [1006](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1006) | C++ | 注意：1. 字符串开辟的空间要大于15；2. 计算结束时间的时候算式变量写错；字符数组拷贝的时候可以调用 strcpy(arr1,arr2) 函数|
+

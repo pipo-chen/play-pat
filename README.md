@@ -30,7 +30,7 @@ PAT (Advanced Level) Practice
 | 14 ｜ [1002 A+B for Polynomials (25point(s))](https://pintia.cn/problem-sets/994805342720868352/problems/994805526272000000)|25[1002](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1002) | C++|统计格式：当count = 0 的时候，输出“0” 而不是“0 ” 所以空格的处理需要调整|
 | 15 ｜ [1009 Product of Polynomials (25point(s))](https://pintia.cn/problem-sets/994805342720868352/problems/994805509540921344)|25[1009](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1009) | C++|注意相乘之后，下标范围增加 原小标范围0-1000 则相乘之后范围 0-2000; 专门设置结果集，否则在原数组遍历的过程中进行修改的话就会造成重复操作和误操作|
 
-### 入门篇（1）- 入门模拟(查找元素)
+### 入门篇（2）- 入门模拟(查找元素)
 |  题目   | 代码地址  | 语言   | 备注  |
 |  ----  | ----  |  ----  | ----  |
 | 1 ｜ [1041 考试座位号 (15point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805281567916032) | 15  [1041](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1041) | C++ | longlong 最小：-9223372036854775808 long 最小：-2147483648|
@@ -41,13 +41,15 @@ PAT (Advanced Level) Practice
 | 6 ｜ [1006 Sign In and Sign Out (25point(s))](https://pintia.cn/problem-sets/994805342720868352/problems/994805516654460928) | 25  [1006](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1006) | C++ | 注意：1. 字符串开辟的空间要大于15；2. 计算结束时间的时候算式变量写错；字符数组拷贝的时候可以调用 strcpy(arr1,arr2) 函数|
 | 7 ｜ [1036 Boys vs Girls (25point(s))](https://pintia.cn/problem-sets/994805342720868352/problems/994805453203030016) | 25  [1036](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1036) | C++ | 注意题意：女生中最高分 - 男生中最低分；则修改过程：1. 改掉女生最高值初始默认；2. 改掉比较当不存在女生或者不存在男生的时候，与其初始值-1和101分别进行比较|
 
-### 入门篇（1）- 入门模拟(图形输出)
+### 入门篇（3）- 入门模拟(图形输出)
 |  题目   | 代码地址  | 语言   | 备注  |
 |  ----  | ----  |  ----  | ----  |
 | 1 ｜ [1036 跟奥巴马一起编程 (15point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805285812551680) | 15  [1036](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1036) | C++ | 1. 列控制的时候，需要注意四舍五入； 2. 外层循环控制列 内层循环控制行。3.中间如果不用空格填充的话 会贴在一起|
 | 2 ｜ [1027 打印沙漏 (20point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805294251491328) | 20  [1027](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1027) | C++ | 1. 先做统计 判断具体需要几行才能实现；2.计算剩余数量的时候，如果统计的total大于输入的n才退出循环的，需回减；如果刚好等于再退出循环的话可以正常处理；3. 注意打印的符号是个变量|
 | 3 ｜ [1031 Hello World for U (20point(s))](https://pintia.cn/problem-sets/994805342720868352/problems/994805462535356416) | 20  [1031](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1031) | C++ | 1. 字符串处理函数需引入 <cstring> 库文件 2. 注意题意 n2要大于n1 所以当 n / 3 + n %3 == n /3 的时候，n2 要从n1 和 n3 中各拿两个字符过来|
-### 入门篇（1）- 入门模拟(日期处理）
+
+### 入门篇（4）- 入门模拟(日期处理）
 |  题目   | 代码地址  | 语言   | 备注  |
 |  ----  | ----  |  ----  | ----  |
 | 1 ｜ [1022 D进制的A+B (20point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805299301433344) | 20  [1022](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1022) | C++ | 1. 思路1: 按末尾每操作一次*10 求和 然后再倒置 比如：1103 -> 3011->(经过倒置)1103；错误原因：1000->0001->(经过倒置：1)错误。 2. 利用数组进行下标存储和输出。⚠️ a+b 为 0 的情况，数组循环不会进入，则什么也不会输出，这时候要另外做处理|
+| 2 ｜ [1037 在霍格沃茨找零钱 (20point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805284923359232) | 20  [1037](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1037) | C++ | 负数的情况下，负号单独做输出|

@@ -7,6 +7,7 @@
 //
 
 #include <iostream>
+#include <cstring>
 using namespace std;
 
 int main(int argc, const char * argv[]) {
@@ -15,22 +16,33 @@ int main(int argc, const char * argv[]) {
     int len = strlen(s);
     int n1 = len / 3;
     int n2 = len / 3 + len % 3;
+    //预防字符串长度为 6.9.12这种的时候 底部与边上的长度相等
+    if (n1 >= n2) {
+        n2 += 2;
+        n1 --;
+    }
     
-    int letter = 0;
+    int head = 0;
+    int tail = len - 1;
     //开始循环
     for (int i = 0; i < n1 + 1; i++) {
         for (int j = 0; j < n2; j++) {
             
             if (i != n1) {
-                if (j == 0 || j == n2 - 1) {
-                    printf("%c",s[letter++]);
+                if (j == 0) {
+                    printf("%c",s[head++]);
                 }
+                else if (j == n2 - 1) {
+                    printf("%c",s[tail--]);
+                }
+                
                 else {
                     printf(" ");
                 }
             } else {
-                printf("%c",s[letter++]);
+                printf("%c",s[head++]);
             }
+            
         }
         printf("\n");
     }

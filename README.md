@@ -46,5 +46,6 @@ PAT (Advanced Level) Practice
 |  ----  | ----  |  ----  | ----  |
 | 1 ｜ [1036 跟奥巴马一起编程 (15point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805285812551680) | 15  [1036](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1036) | C++ | 1. 列控制的时候，需要注意四舍五入； 2. 外层循环控制列 内层循环控制行。3.中间如果不用空格填充的话 会贴在一起|
 | 2 ｜ [1027 打印沙漏 (20point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805294251491328) | 20  [1027](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1027) | C++ | 1. 先做统计 判断具体需要几行才能实现；2.计算剩余数量的时候，如果统计的total大于输入的n才退出循环的，需回减；如果刚好等于再退出循环的话可以正常处理；3. 注意打印的符号是个变量|
+| 3 ｜ [1031 Hello World for U (20point(s))](https://pintia.cn/problem-sets/994805342720868352/problems/994805462535356416) | 20  [1031](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1031) | C++ | 1. 字符串处理函数需引入 <cstring> 库文件 2. 注意题意 n2要大于n1 所以当 n / 3 + n %3 == n /3 的时候，n2 要从n1 和 n3 中各拿两个字符过来|
 
 

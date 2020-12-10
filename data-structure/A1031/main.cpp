@@ -14,12 +14,12 @@ int main(int argc, const char * argv[]) {
     char s[81];
     scanf("%s",s);
     int len = strlen(s);
+   
     int n1 = len / 3;
-    int n2 = len / 3 + len % 3;
-    //预防字符串长度为 6.9.12这种的时候 底部与边上的长度相等
+    int n2 = len - n1 * 2;
     if (n1 >= n2) {
-        n2 += 2;
         n1 --;
+        n2 += 2;
     }
     
     int head = 0;

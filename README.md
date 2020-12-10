@@ -47,5 +47,7 @@ PAT (Advanced Level) Practice
 | 1 ｜ [1036 跟奥巴马一起编程 (15point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805285812551680) | 15  [1036](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1036) | C++ | 1. 列控制的时候，需要注意四舍五入； 2. 外层循环控制列 内层循环控制行。3.中间如果不用空格填充的话 会贴在一起|
 | 2 ｜ [1027 打印沙漏 (20point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805294251491328) | 20  [1027](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1027) | C++ | 1. 先做统计 判断具体需要几行才能实现；2.计算剩余数量的时候，如果统计的total大于输入的n才退出循环的，需回减；如果刚好等于再退出循环的话可以正常处理；3. 注意打印的符号是个变量|
 | 3 ｜ [1031 Hello World for U (20point(s))](https://pintia.cn/problem-sets/994805342720868352/problems/994805462535356416) | 20  [1031](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1031) | C++ | 1. 字符串处理函数需引入 <cstring> 库文件 2. 注意题意 n2要大于n1 所以当 n / 3 + n %3 == n /3 的时候，n2 要从n1 和 n3 中各拿两个字符过来|
-
-
+### 入门篇（1）- 入门模拟(日期处理）
+|  题目   | 代码地址  | 语言   | 备注  |
+|  ----  | ----  |  ----  | ----  |
+| 1 ｜ [1022 D进制的A+B (20point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805299301433344) | 20  [1022](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1022) | C++ | 1. 思路1: 按末尾每操作一次*10 求和 然后再倒置 比如：1103 -> 3011->(经过倒置)1103；错误原因：1000->0001->(经过倒置：1)错误。 2. 利用数组进行下标存储和输出。⚠️ a+b 为 0 的情况，数组循环不会进入，则什么也不会输出，这时候要另外做处理|

@@ -41,3 +41,10 @@ PAT (Advanced Level) Practice
 | 6 ｜ [1006 Sign In and Sign Out (25point(s))](https://pintia.cn/problem-sets/994805342720868352/problems/994805516654460928) | 25  [1006](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1006) | C++ | 注意：1. 字符串开辟的空间要大于15；2. 计算结束时间的时候算式变量写错；字符数组拷贝的时候可以调用 strcpy(arr1,arr2) 函数|
 | 7 ｜ [1036 Boys vs Girls (25point(s))](https://pintia.cn/problem-sets/994805342720868352/problems/994805453203030016) | 25  [1036](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1036) | C++ | 注意题意：女生中最高分 - 男生中最低分；则修改过程：1. 改掉女生最高值初始默认；2. 改掉比较当不存在女生或者不存在男生的时候，与其初始值-1和101分别进行比较|
 
+### 入门篇（1）- 入门模拟(图形输出)
+|  题目   | 代码地址  | 语言   | 备注  |
+|  ----  | ----  |  ----  | ----  |
+| 1 ｜ [1036 跟奥巴马一起编程 (15point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805285812551680) | 15  [1036](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1036) | C++ | 1. 列控制的时候，需要注意四舍五入； 2. 外层循环控制列 内层循环控制行。3.中间如果不用空格填充的话 会贴在一起|
+| 2 ｜ [1027 打印沙漏 (20point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805294251491328) | 20  [1027](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1027) | C++ | 1. 先做统计 判断具体需要几行才能实现；2.计算剩余数量的时候，如果统计的total大于输入的n才退出循环的，需回减；如果刚好等于再退出循环的话可以正常处理；3. 注意打印的符号是个变量|
+
+

@@ -8,24 +8,39 @@
 
 #include <iostream>
 using namespace::std;
-//最大值：4930000000 galleon + 289 + 29
-//longlong 9223372036854775807 //long：2147483647肯定溢出-4930000000
 
-const int GALLEON = 17 * 29;
+const int GALLEON = 17;
 const int SICKLE = 29;
-//注意 10^7 * GALLEON 有可能会溢出
+
 int main(int argc, const char * argv[]) {
-    long long g1,s1,k1,g2,s2,k2;
-    scanf("%lld.%lld.%lld %lld.%lld.%lld",&g1,&s1,&k1,&g2,&s2,&k2);
+    int a[3];
+    int b[3];
+    scanf("%d.%d.%d %d.%d.%d",&a[0],&a[1],&a[2],&b[0],&b[1],&b[2]);
+    int res[3];
+    int carry = 0;
+    for (int i = 2; i >= 0; i--) {
+        int ans = a[i] + b[i] + carry;
+        carry = 0;
+        
+        if (i == 1 && ans >= GALLEON) {
+            carry = ans / GALLEON;
+            ans = ans % GALLEON;
+        }
+        if (i == 2 && ans >= SICKLE) {
     
-    //即便是long long sum = 1270066392 实际=9860000000 在计算过程中，仍然错误；
-    //所以在计算过程中就会出现问题
-    long long sum = (g1 + g2) * GALLEON + (s1 + s2) * SICKLE + k1 + k2;
-   
-    long long g = sum / GALLEON;
-    long long s = (sum - g * GALLEON) / SICKLE;
-    long long k = sum - g * GALLEON - s * SICKLE;
+            carry = ans / SICKLE;
+            ans = ans % SICKLE;
+        }
+        //carry 加完之后 没有被重置
+        res[i] = ans;
+    }
     
-    printf("%lld.%lld.%lld\n",g,s,k);
+    for (int j = 0; j < 3; j++) {
+        printf("%d",res[j]);
+        if (j != 2) {
+            printf(".");
+        }
+    }
+    printf("\n");
     return 0;
 }

@@ -53,3 +53,4 @@ PAT (Advanced Level) Practice
 |  ----  | ----  |  ----  | ----  |
 | 1 ｜ [1022 D进制的A+B (20point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805299301433344) | 20  [1022](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1022) | C++ | 1. 思路1: 按末尾每操作一次*10 求和 然后再倒置 比如：1103 -> 3011->(经过倒置)1103；错误原因：1000->0001->(经过倒置：1)错误。 2. 利用数组进行下标存储和输出。⚠️ a+b 为 0 的情况，数组循环不会进入，则什么也不会输出，这时候要另外做处理|
 | 2 ｜ [1037 在霍格沃茨找零钱 (20point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805284923359232) | 20  [1037](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1037) | C++ | 负数的情况下，负号单独做输出|
+| 3 ｜ [1019 General Palindromic Number (20point(s))](https://pintia.cn/problem-sets/994805342720868352/problems/994805487143337984) | 20  [1019](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1019) | C++ | - 英文题目解读：n 整数 b 进制，判断进制之后是否回文。 解法：双指针|

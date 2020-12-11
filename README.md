@@ -61,3 +61,4 @@ PAT (Advanced Level) Practice
 |  题目   | 代码地址  | 语言   | 备注  |
 |  ----  | ----  |  ----  | ----  |
 | 1 ｜ [1006 换个格式输出整数 (15point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805318855278592) | 15  [1006](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1006) | C++ | 数字->字符 +‘0’|
+| 2 ｜ [1021 个位数统计 (15point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805300404535296) | 15  [1006](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1021) | C++ | 字符->数字 - ‘0’ ⚠️不超过 1000 位 与 不超过 1000 一定要看清楚|

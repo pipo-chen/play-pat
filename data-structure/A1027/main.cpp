@@ -25,7 +25,6 @@ int main(int argc, const char * argv[]) {
             res[index++] = a[colors[i] % DECIMAL];
             colors[i] /= DECIMAL;
         } while (colors[i] > 0);
-        
     
         //如果类似 11 计算出来只有 B 的情况下 前面要加 0
         if (index == 1) {

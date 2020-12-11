@@ -61,6 +61,5 @@ PAT (Advanced Level) Practice
 |  题目   | 代码地址  | 语言   | 备注  |
 |  ----  | ----  |  ----  | ----  |
 | 1 ｜ [1006 换个格式输出整数 (15point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805318855278592) | 15  [1006](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1006) | C++ | 数字->字符 +‘0’|
-| 2 ｜ [1021 个位数统计 (15point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805300404535296) | 15  [1006](
-https://github.com/pipo-chen/play-pat/tree/master/data-structure/1021) | C++ | 字符->数字 - ‘0’ ⚠️不超过 1000 位 与 不超过 1000 一定要看清楚|
+| 2 ｜ [1021 个位数统计 (15point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805300404535296) | 15  [1021](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1021) | C++ | 字符->数字 - ‘0’ ⚠️不超过 1000 位 与 不超过 1000 一定要看清楚|
 | 3 ｜ [1031 查验身份证 (15point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805290334011392) | 15  [1031](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1031) | C++ | 1. 字符与字符的比较： == / ！= 2. 字符数组的拷贝复制 🙅审题：并不要求统计错误次数并一次性输出|

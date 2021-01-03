@@ -56,7 +56,11 @@ int main(int argc, const char * argv[]) {
         n--;
     }
     if (index == 0) {
-        printf("There are %d accounts and no account is modified\n",num);
+        if (num > 1) {
+            printf("There are %d accounts and no account is modified\n",num);
+        } else {
+            printf("There is 1 account and no account is modified\n");
+        }
     }
     else {
         printf("%d\n",index);

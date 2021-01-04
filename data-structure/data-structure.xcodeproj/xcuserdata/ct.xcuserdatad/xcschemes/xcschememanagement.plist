@@ -152,7 +152,7 @@
 		<key>A1005.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>48</integer>
+			<integer>49</integer>
 		</dict>
 		<key>A1006.xcscheme_^#shared#^_</key>
 		<dict>
@@ -187,7 +187,7 @@
 		<key>A1035.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>49</integer>
+			<integer>48</integer>
 		</dict>
 		<key>A1036.xcscheme_^#shared#^_</key>
 		<dict>
@@ -213,6 +213,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>15</integer>
+		</dict>
+		<key>A1077.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>50</integer>
 		</dict>
 		<key>LC1343.xcscheme_^#shared#^_</key>
 		<dict>

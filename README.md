@@ -75,4 +75,4 @@ PAT (Advanced Level) Practice
 ### 算法初步
 |  题目   | 代码地址  | 语言   | 备注  |
 |  ----  | ----  |  ----  | ----  |
-| 1 ｜ [1015 德才论 (25point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805307551629312) | 19  [1015](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1062) | C++ | 1. 字符串比较以及cmp比较函数 2. 建立结构体 3. 此题最重要的是题意要读懂|
+| 1 ｜ [1015 德才论 (25point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805307551629312) | 19  [1015](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1062) | C++ | 1. 字符串比较以及cmp比较函数 2. 建立结构体 3. 此题最重要的是题意要读懂 4. 注意引入头文件 #include <cstring> #include <algorithm>|

@@ -41,7 +41,7 @@ int main(int argc, const char * argv[]) {
             if (stu[m].cai >= H && stu[m].de >= H)
                 stu[m].level = 1;
             
-            else if (stu[m].de >= H && stu[m].de < H)
+            else if (stu[m].de >= H && stu[m].cai < H)
                 stu[m].level = 2;
             
             else if (stu[m].de >= stu[m].cai)

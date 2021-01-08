@@ -71,3 +71,8 @@ PAT (Advanced Level) Practice
 | 9 ｜ [1005 Spell It Right (20point(s))](https://pintia.cn/problem-sets/994805342720868352/problems/994805519074574336) | 17  [A1005](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1005) | C++ | 1. 输入的是字符还是整数，如果是整数，12345为一个整体而不是单个；2. 输入char 用 EOF 结束 与输入字符串再处理 校验结果不一  |
 | 10 ｜ [1035 Password (20point(s))](https://pintia.cn/problem-sets/994805342720868352/problems/994805454989803520) | 18  [A1035](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1035) | C++ | 1. 字符串拷贝 2. 注意审题，输出语句 are 和 is 是有区别的|
 | 11 ｜ [1077 Kuchiguse (20point(s))](https://pintia.cn/problem-sets/994805342720868352/problems/994805390896644096) | 11  [A077](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A077) | C++ | 1. 编译问题：use of undeclared identifier 'gets' -> 使用 cin.getline(str[i], 260)解决 ；2. 后缀需要倒序输出 错误发现并非最后一个可能是“ 同后缀”前面的空格需要去掉；|
+
+### 算法初步
+|  题目   | 代码地址  | 语言   | 备注  |
+|  ----  | ----  |  ----  | ----  |
+| 1 ｜ [1015 德才论 (25point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805307551629312) | 19  [1015](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1062) | C++ | 1. 字符串比较以及cmp比较函数 2. 建立结构体 3. 此题最重要的是题意要读懂|

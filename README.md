@@ -79,7 +79,7 @@ PAT (Advanced Level) Practice
 |  ----  | ----  |  ----  | ----  |
 | 1 ｜ [1015 德才论 (25point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805307551629312) | 19  [1015](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1062) | C++ | 1. 字符串比较以及cmp比较函数 2. 建立结构体 3. 此题最重要的是题意要读懂 4. 注意引入头文件 #include <cstring> #include <algorithm>|
 
-### 算法初步 - （1）排序
+### 算法初步 - 散列
 |  题目   | 代码地址  | 语言   | 备注  |
 |  ----  | ----  |  ----  | ----  |
 | 1 ｜ [1029 旧键盘 (20 point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805292322111488) | 20  [1029](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1084) | C++ | 1. 设置一个hash表避免字母重复存储 2. 循环条件 不能是 in<len1 && out<len2 否则例子：“7_This_is_a_testMMMM” “_hs_s_a_es” 答案应该是：“7TIM”|

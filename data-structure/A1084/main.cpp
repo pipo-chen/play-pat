@@ -41,7 +41,6 @@ int main(int argc, const char * argv[]) {
         }
         key_in++;
     }
-    //len2 到长度了怎么办
     
     printf("\n");
     return 0;

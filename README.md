@@ -83,3 +83,5 @@ PAT (Advanced Level) Practice
 |  题目   | 代码地址  | 语言   | 备注  |
 |  ----  | ----  |  ----  | ----  |
 | 1 ｜ [1029 旧键盘 (20 point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805292322111488) | 20  [1029](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1084) | C++ | 1. 设置一个hash表避免字母重复存储 2. 循环条件 不能是 in<len1 && out<len2 否则例子：“7_This_is_a_testMMMM” “_hs_s_a_es” 答案应该是：“7TIM”|
+| 2 ｜ [1033 旧键盘打字 (20 point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805288530460672) | 19  [1033](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1033) | C++ | 1. 注意审题：上档不输出大写|
+| 3 ｜ [1038 统计同成绩学生 (20 point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805284092887040) | 20  [1038](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1038) | C++ | 1. 统计桶的数据范围应该是101 以上，如果设为 count[100] 将导致100分的学生无法被统计|

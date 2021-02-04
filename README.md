@@ -86,3 +86,4 @@ PAT (Advanced Level) Practice
 | 2 ｜ [1033 旧键盘打字 (20 point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805288530460672) | 19  [1033](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1033) | C++ | 1. 注意审题：上档不输出大写|
 | 3 ｜ [1038 统计同成绩学生 (20 point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805284092887040) | 20  [1038](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1038) | C++ | 1. 统计桶的数据范围应该是101 以上，如果设为 count[100] 将导致100分的学生无法被统计|
 | 4 ｜ [1039 到底买不买 (20 point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805283241443328) | 20  [1039](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1039) | C++ | 可以买的话 多余的不需要统计 直接原始数据减。|
+| 5 ｜ [1042 字符统计 (20 point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805280817135616) | 20  [1042](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1042) | C++ | 统计，最后输出的时候注意 >= max 情况 都可以更新 max|

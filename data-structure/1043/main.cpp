@@ -11,7 +11,7 @@
 using namespace std;
 
 int main(int argc, const char * argv[]) {
-    char str[1010];
+    char str[10010];
     int count[6] = {0};
     scanf("%s",str);
     //PATest

@@ -93,3 +93,9 @@ PAT (Advanced Level) Practice
 | 9 ｜ [1050 String Subtraction (20 point(s))](https://pintia.cn/problem-sets/994805342720868352/problems/994805429018673152) | 20  [A1050](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1050) | C++ | 思路：先存储一遍不能输出的字符，再遍历输出可输出的字符|
 | 10 ｜ [1005 继续(3n+1)猜想 (25 point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805320306507776) | 19  [1005](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1005) | C++ | 1. 段错误 hashtable 范围太小：以99 为例：149 224 112 56... 2. 逻辑漏洞：主要是数据第一次处理完之后的那一排是否被覆盖 还是说只要判断自原数据开始的数字是否被覆盖 |
 | 11 ｜ [1048 Find Coins (25 point(s))](https://pintia.cn/problem-sets/994805342720868352/problems/994805432256675840) | 25  [A1048](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1048) | C++ | 先排序 然后两边缩进 |
+
+### 算法初步 - 贪心
+|  题目   | 代码地址  | 语言   | 备注  |
+|  ----  | ----  |  ----  | ----  |
+| 1 ｜ [1023 组个最小数 (20 point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805298269634560) | 20  [1023](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1023) | C++ | |
+

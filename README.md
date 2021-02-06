@@ -98,4 +98,5 @@ PAT (Advanced Level) Practice
 |  题目   | 代码地址  | 语言   | 备注  |
 |  ----  | ----  |  ----  | ----  |
 | 1 ｜ [1023 组个最小数 (20 point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805298269634560) | 20  [1023](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1023) | C++ | |
+| 2 ｜ [1020 月饼 (25 point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805301562163200) | 23  [1020](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1020) | C++ | 可以在原有 D 需求量上操作已获得库存的情况|
 

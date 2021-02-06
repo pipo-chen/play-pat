@@ -22,7 +22,7 @@ int main(int argc, const char * argv[]) {
     //如果前面是 0 的情况下 找到一个非0 的与首位交换 100 00 这种情况怎么办
     if (num[0] == 0) {
         int find = 0;
-        while (num[find] == 0 && find < index - 1) {
+        while (num[find] == 0 && find < index) {
             find++;
         }
         //交换

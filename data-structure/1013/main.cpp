@@ -24,13 +24,11 @@ int main(int argc, const char * argv[]) {
     scanf("%d %d",&M, &N);
     int count = 0;
     int index = 1;
-    //第 5 个 素数 和 第 27 个素数
     int num = 2;
     while (count < N) {
         if (prime_num(num)) {
             count++;
             if ( count >= M) {
-                //开始打印
                 printf("%d",num);
                 if (index % 10 == 0) {
                     printf("\n");
@@ -42,6 +40,6 @@ int main(int argc, const char * argv[]) {
         }
         num++;
     }
-    printf("\n");
+//    printf("\n");
     return 0;
 }

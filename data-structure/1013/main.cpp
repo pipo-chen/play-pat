@@ -33,7 +33,7 @@ int main(int argc, const char * argv[]) {
                 if (index % 10 == 0) {
                     printf("\n");
                 } else if (count != N) {
-                    printf("-");
+                    printf(" ");
                 }
                 index++;
             }

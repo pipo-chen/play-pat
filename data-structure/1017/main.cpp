@@ -14,17 +14,21 @@ using namespace std;
 int main(int argc, const char * argv[]) {
     char A[1001];
     int ans[1001];
-    int B, index = 0, remainder = 0, cur = 0;
+    int B, index = 0, R = 0, cur = 0;
     scanf("%s %d",A, &B);
+    
     for (int i = 0; i < strlen(A); i++) {
-        cur = A[i] - '0' + remainder * 10;
-        remainder = cur % B;
+        cur = A[i] - '0' + R * 10;
+        R = cur % B;
+        //⚠️大于等于的时候 可以进行除法操作
         if (cur >= B) {
             ans[index++] = cur / B;
         } else {
             ans[index++] = 0;
         }
     }
+    
+    //过滤掉高位的 0
     int zero = 0;
     while (ans[zero] == 0) {
         zero++;
@@ -32,7 +36,12 @@ int main(int argc, const char * argv[]) {
     for (int i = zero; i < index; i++) {
         printf("%d",ans[i]);
     }
-    printf(" %d",remainder);
+    
+    //当 A 比 B 小的时候，0 余数形式输出
+    if (index - zero == 0) {
+        printf("0");
+    }
+    printf(" %d",R);
     printf("\n");
     
     return 0;

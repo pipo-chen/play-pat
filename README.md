@@ -104,4 +104,5 @@ PAT (Advanced Level) Practice
 |  题目   | 代码地址  | 语言   | 备注  |
 |  ----  | ----  |  ----  | ----  |
 | 1 ｜ [1007 素数对猜想 (20 point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805317546655744) | 20  [1023](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1007) | C++ | 素数的验证方式：2-根号该 num 之间没有可以整除 num 的数字存在。|
+| 2 ｜ [1013 数素数 (20 point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805309963354112) | 18  [1013](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1013) | C++ | 理解题目 第几个素数 - 第几个素数|
 

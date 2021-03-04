@@ -105,5 +105,5 @@ PAT (Advanced Level) Practice
 |  ----  | ----  |  ----  | ----  |
 | 1 ｜ [1007 素数对猜想 (20 point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805317546655744) | 20  [1007](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1007) | C++ | 素数的验证方式：2-根号该 num 之间没有可以整除 num 的数字存在。|
 | 2 ｜ [1013 数素数 (20 point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805309963354112) | 18  [1013](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1013) | C++ | 理解题目 第几个素数 - 第几个素数; 错误原因：presentation error 最后的换行|
-| 3 ｜ [1017 A除以B (20 point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805305181847552) | 18  [1017](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1017) | C++ |  错误原因：wrong error; 修改1: A < B 情况下 例如 1 2 结果应该是0 1|
+| 3 ｜ [1017 A除以B (20 point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805305181847552) | 18  [1017](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1017) | C++ |  错误原因：wrong error; 修改1: A < B 情况下 例如 1 2 结果应该是0 1； 修改：代码优化|
 

@@ -108,3 +108,7 @@ PAT (Advanced Level) Practice
 | 3 ｜ [1017 A除以B (20 point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805305181847552) | 18  [1017](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1017) | C++ |  错误原因：wrong error; 修改1: A < B 情况下 例如 1 2 结果应该是0 1； 修改：代码优化|
 | 4 ｜ [1056 组合数的和 (15 point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805271455449088) | 15  [1056](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1056) | C++ |  简单题 排列组合|
 | 5 ｜ [1057 数零壹 (20 point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805270914383872) | 17  [1057](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1057) | C++ |  🙅：运行超时  字母转数字：'a' - 'a' = 0; 提高运行时间：把大写转成小写之后再进行求和，直接改成 大写的 -'A'+1 小写的 -'a'+1 进行求和提高运行效率。|
+
+### PAT 甲级真题练习
+|  题目   | 代码地址  | 语言   | 备注  |
+| 1 ｜ [7-1 The Closest Fibonacci Number (20 point(s))](https://pintia.cn/problem-sets/1336189424478273536/problems/1336189514299293696) | 20  [7-1](https://github.com/pipo-chen/play-pat/tree/master/data-structure/7_1) | C++ | 斐波那契数列，寻找与之最接近的值。|

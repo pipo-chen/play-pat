@@ -8,20 +8,21 @@
 
 #include <iostream>
 #include <algorithm>
+#include <cstring>
 
 using namespace :: std;
 
 struct Testee {
-    long registration_number;
+    char registration_number[15]; //考虑整型溢出
     int final_rank;
     int local_rank;
     int location_number;
     int score;
-}testees[30000];
+}testees[30010];
 int cmp(Testee a, Testee b) {
     if (a.score != b.score)
         return a.score > b.score;
-    return a.registration_number < b.registration_number;
+    return strcmp(a.registration_number, b.registration_number) < 0;
 }
 
 int main(int argc, const char * argv[]) {
@@ -32,7 +33,7 @@ int main(int argc, const char * argv[]) {
         scanf("%d",&k);
         int flag = count;
         for (int j = 0; j < k; j++) {
-            scanf("%ld %d",&testees[count].registration_number, &testees[count].score);
+            scanf("%s %d",testees[count].registration_number, &testees[count].score);
             testees[count].location_number = i;
             count++;
         }
@@ -67,7 +68,7 @@ int main(int argc, const char * argv[]) {
     
     printf("%d\n",count);
     for (int i = 0; i < count; i++) {
-        printf("%ld %d %d %d\n",testees[i].registration_number, testees[i].final_rank, testees[i].location_number, testees[i].local_rank);
+        printf("%s %d %d %d\n",testees[i].registration_number, testees[i].final_rank, testees[i].location_number, testees[i].local_rank);
     }
     
     return 0;

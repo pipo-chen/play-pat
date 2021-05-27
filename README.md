@@ -80,7 +80,8 @@ PAT (Advanced Level) Practice
 | 1 ｜ [1015 德才论 (25point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805307551629312) | 19  [1015](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1062) | C++ | 1. 字符串比较以及cmp比较函数 2. 建立结构体 3. 此题最重要的是题意要读懂 4. 注意引入头文件 #include <cstring> #include <algorithm>|
 | 2 ｜ [1025 PAT Ranking (25 point(s))](https://pintia.cn/problem-sets/994805342720868352/problems/994805474338127872) | 22  [A1025](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1025) | C++ |1.考试编号长度13字符，只能用字符串进行操作，无法通过长整型存储|
 | 3 ｜ [1062 1062 Talent and Virtue (25 point(s))](https://pintia.cn/problem-sets/994805342720868352/problems/994805410555346944) | 25  [A1062](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1015) | C++ |1. 审题较为耗时，实现ok|
-| 4 ｜ [1012 The Best Rank (25 point(s)))](https://pintia.cn/problem-sets/994805342720868352/problems/994805502658068480) | 18  [A1012](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1012) | C++ ||
+| 4 ｜ [1012 The Best Rank (25 point(s)))](https://pintia.cn/problem-sets/994805342720868352/problems/994805502658068480) | 18  [A1012](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1012) | C++ |🙅|
+| 5 ｜ [1028 List Sorting (25 point(s))](https://pintia.cn/problem-sets/994805342720868352/problems/994805468327690240) | 18  [A1028](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1028) | C++ |🙅|
 
 ### 算法初步 - 散列
 |  题目   | 代码地址  | 语言   | 备注  |
@@ -116,4 +117,5 @@ PAT (Advanced Level) Practice
 
 ### PAT 甲级真题练习
 |  题目   | 代码地址  | 语言   | 备注  |
+|  ----  | ----  |  ----  | ----  |
 | 1 ｜ [7-1 The Closest Fibonacci Number (20 point(s))](https://pintia.cn/problem-sets/1336189424478273536/problems/1336189514299293696) | 20  [7-1](https://github.com/pipo-chen/play-pat/tree/master/data-structure/7_1) | C++ | 斐波那契数列，寻找与之最接近的值。|

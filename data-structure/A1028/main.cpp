@@ -12,20 +12,23 @@
 
 using namespace :: std;
 struct Student {
-    char name[8];
+    char name[10];
     long id;
     int grade;
 }stu[100010];
 
 bool cmp_id(Student a, Student b) {
+    //准考证从小到大排
     return a.id < b.id;
 }
 bool cmp_name(Student a, Student b) {
+    //按名字字典序从小到大排
     if (strcmp(a.name, b.name) != 0)
         return strcmp(a.name, b.name) < 0;
     return a.id < b.id;
 }
 bool cmp_grade(Student a, Student b) {
+    //按分数从小到大排，分数相同，按准考证从小到大排
     if (a.grade != b.grade)
         return a.grade < b.grade;
     return a.id < b.id;

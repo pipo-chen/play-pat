@@ -81,7 +81,7 @@ PAT (Advanced Level) Practice
 | 2 ｜ [1025 PAT Ranking (25 point(s))](https://pintia.cn/problem-sets/994805342720868352/problems/994805474338127872) | 22  [A1025](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1025) | C++ |1.考试编号长度13字符，只能用字符串进行操作，无法通过长整型存储|
 | 3 ｜ [1062 1062 Talent and Virtue (25 point(s))](https://pintia.cn/problem-sets/994805342720868352/problems/994805410555346944) | 25  [A1062](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1015) | C++ |1. 审题较为耗时，实现ok|
 | 4 ｜ [1012 The Best Rank (25 point(s)))](https://pintia.cn/problem-sets/994805342720868352/problems/994805502658068480) | 25  [A1012](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1012) | C++ |⚠️同分者同排名|
-| 5 ｜ [1028 List Sorting (25 point(s))](https://pintia.cn/problem-sets/994805342720868352/problems/994805468327690240) | 18  [A1028](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1028) | C++ |🙅|
+| 5 ｜ [1028 List Sorting (25 point(s))](https://pintia.cn/problem-sets/994805342720868352/problems/994805468327690240) | 18  [A1028](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1028) | C++ |⚠️名字字符不超过8个 需要开辟更充足的空间进行字符存储|
 
 ### 算法初步 - 散列
 |  题目   | 代码地址  | 语言   | 备注  |

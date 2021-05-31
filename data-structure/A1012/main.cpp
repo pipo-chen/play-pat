@@ -46,24 +46,45 @@ int main() {
     }
     //按平均数进行排序
     sort(stu, stu + N, cmp_a);
-    //记录排名
-    for (int i = 0; i < N; i++) {
-        stu[i].rank[0] = i+1;
+
+    //按 A 进行排序
+    stu[0].rank[0] = 1;
+    for (int i = 1; i < N; i++) {
+        //排名时候要处理 同分的情况下 排名是一致的
+        if (stu[i].AVE == stu[i-1].AVE)
+            stu[i].rank[0] = stu[i-1].rank[0];
+        else
+            stu[i].rank[0] = i + 1;
     }
+    
     //按C进行排序
     sort(stu, stu + N, cmp_c);
-    for (int i = 0; i < N; i++) {
-        stu[i].rank[1] = i+1;
+    stu[0].rank[1] = 1;
+    for (int i = 1; i < N; i++) {
+        if (stu[i].C == stu[i-1].C)
+            stu[i].rank[1] = stu[i-1].rank[1];
+        else
+            stu[i].rank[1] = i + 1;
     }
+ 
     //按M进行排序
     sort(stu, stu + N, cmp_m);
-    for (int i = 0; i < N; i++) {
-        stu[i].rank[2] = i+1;
+    stu[0].rank[2] = 1;
+    for (int i = 1; i < N; i++) {
+        if (stu[i].M == stu[i-1].M)
+            stu[i].rank[2] = stu[i-1].rank[2];
+        else
+            stu[i].rank[2] = i + 1;
     }
+   
     //按E进行排序
     sort(stu, stu + N, cmp_e);
-    for (int i = 0; i < N; i++) {
-        stu[i].rank[3] = i+1;
+    stu[0].rank[3] = 1;
+    for (int i = 1; i < N; i++) {
+        if (stu[i].E == stu[i-1].E)
+            stu[i].rank[3] = stu[i-1].rank[3];
+        else
+            stu[i].rank[3] = i + 1;
     }
 
     for (int i = 0; i < M; i++) {

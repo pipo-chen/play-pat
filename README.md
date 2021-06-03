@@ -82,7 +82,7 @@ PAT (Advanced Level) Practice
 | 3 ｜ [1062 1062 Talent and Virtue (25 point(s))](https://pintia.cn/problem-sets/994805342720868352/problems/994805410555346944) | 25  [A1062](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1015) | C++ |1. 审题较为耗时，实现ok|
 | 4 ｜ [1012 The Best Rank (25 point(s)))](https://pintia.cn/problem-sets/994805342720868352/problems/994805502658068480) | 25  [A1012](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1012) | C++ |⚠️同分者同排名|
 | 5 ｜ [1028 List Sorting (25 point(s))](https://pintia.cn/problem-sets/994805342720868352/problems/994805468327690240) | 18  [A1028](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1028) | C++ |⚠️名字字符不超过8个 需要开辟更充足的空间进行字符存储|
-| 6 ｜ [1055 The World's Richest (25 point(s))](https://pintia.cn/problem-sets/994805342720868352/problems/994805421066272768) | 18  [A1055](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1055) | C++ |🙅运行超时|
+| 6 ｜ [1055 The World's Richest (25 point(s))](https://pintia.cn/problem-sets/994805342720868352/problems/994805421066272768) | 18  [A1055](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1055) | C++ |🙅运行超时 更简便的方式：排序之后直接满足年龄的输出 不满足年龄的继续找 相比原先大方法：1. 不用每次都重新按年龄排 2. 不用每次都先定位一波年龄区间再去做财富输出 3.直接按财富进行排 依次找符合年龄的人输出即可|
 
 ### 算法初步 - 散列
 |  题目   | 代码地址  | 语言   | 备注  |

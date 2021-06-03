@@ -18,11 +18,7 @@ struct People {
     long net_worth;
 }people[100010];
 
-//进行年龄排序
-bool cmp_age(People a, People b) {
-    return a.age < b.age;
-}
-
+//排序
 bool cmp_worth(People a, People b) {
     if (a.net_worth != b.net_worth)
         return a.net_worth > b.net_worth;
@@ -39,37 +35,24 @@ int main(int argc, const char * argv[]) {
     for (int i = 0; i < n; i++) {
         scanf("%s %d %ld",people[i].name, &people[i].age, &people[i].net_worth);
     }
-    //进入 k 循环
-    //按年龄进行排序
+
     int num, minAge, maxAge;
-    sort(people, people+n, cmp_age);
+    sort(people, people + n, cmp_worth);
+    
     for (int j = 1; j <= k; j++) {
-        sort(people, people + n, cmp_age);
         scanf("%d %d %d",&num, &minAge, &maxAge);
         printf("Case #%d:\n",j);
-    
-        int left = 0;
-        int right = n - 1;
-        
-        while (people[left].age < minAge && left < n)
-            left++;
-        while (people[right].age > maxAge && right > 0)
-            right--;
-        
-        //1 不变 left < right
-        if (left > right) {
-            printf("None\n");
-        }
-        //2. 输出 left - right 之间的财富排序
-        else {
-            sort(people + left, people + right + 1, cmp_worth);
-            int total = (right - left + 1) < num ? (right - left + 1) : num;
-            //读取也是从排好序的这个区间内进行
-            for (int k = left; k < total + left; k++) {
-                printf("%s %d %ld\n",people[k].name, people[k].age, people[k].net_worth);
+        //方法二、按财富进行排序 财富相同按年龄 年龄相同按姓名 遍历 如果年龄满足区间则输出
+        int flag = 0;
+        for (int j = 0; j < n && flag < num; j++) {
+            if (people[j].age >= minAge && people[j].age <= maxAge) {
+                printf("%s %d %ld\n",people[j].name, people[j].age, people[j].net_worth);
+                flag++;
             }
         }
-       
+        if (flag == 0)
+            printf("None\n");
+      
     }
     
     return 0;

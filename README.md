@@ -120,3 +120,88 @@ PAT (Advanced Level) Practice
 |  题目   | 代码地址  | 语言   | 备注  |
 |  ----  | ----  |  ----  | ----  |
 | 1 ｜ [7-1 The Closest Fibonacci Number (20 point(s))](https://pintia.cn/problem-sets/1336189424478273536/problems/1336189514299293696) | 20  [7-1](https://github.com/pipo-chen/play-pat/tree/master/data-structure/7_1) | C++ | 斐波那契数列，寻找与之最接近的值。|
+
+### C++标准库使用
+*1. Vector*
+- 定义
+> vector<typename> name; 相当于一维数组，长度可以根据需要进行变化，节省空间"变长数组"
+- 二维数组
+> vector<typename> arrayName[arraysize];
+- 访问
+> vi[index]
+- 示例
+```aidl 示例
+ #include <stdio.h>
+ #include <vector.h>
+ using namespace std;
+ int main() {
+    vector<int>v1;
+    for (int i = 1; i <= 5; i++) {
+        vi.push_back(i);
+    }
+    vi.pop_back();
+    vector<int>::iterator it = vi.begin();
+    for (int i = 0; i < vi.size; i++) {
+        printf("%d", *(it + i));
+    }
+    return 0;
+ }
+```
+*2. Set*
+- 定义
+> set <typename> name;
+
+- 示例
+```aidl
+#include<stdio.h>
+#include<set>
+
+using namespace std;
+int main() {
+    set<int> st;
+    st.insert(3);
+    st.insert(5);
+    st.insert(2);
+    st.insert(3);
+    for (set<int>::iterator it = st.begin(); it != st.end(); it++) {
+        printf("%d", *it);
+    }
+    return 0;
+}
+```
+*3. String*
+- 定义
+> string str;
+
+- 示例
+```c
+#include<stdio.h>
+#include<string>
+
+using namespace std;
+int main() {
+    string str = "abdc";
+    for (int i = 0; i < str.length(); i++) {
+        printf("%c", str[i]);
+    }
+    retutn 0;
+}
+//如果要输入输出字符串，只能用 cin cout
+int main() {
+    string str;
+    cin >> str;
+    count << str;
+    return 0;
+}
+```
+- 常用函数
+> 字符串拼接：str1 + str2 
+> 字符串比较：str1 < str2
+> 删除指定位置：str.erase(pos, length)
+> 子串：substr(pos, len)
+> find: str.find(str2)
+> replace: str.replace(pos, len, str2)
+
+
+
+

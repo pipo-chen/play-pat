@@ -202,6 +202,58 @@ int main() {
 > find: str.find(str2)
 > replace: str.replace(pos, len, str2)
 
+*4. Map*
+- 示例
+```cpp
+#include<stdio.h>
+#inlcude<map>
+
+using namespace std;
+
+int main() {
+    map<char, int>mp;
+    mp['c'] = 20;
+    mp['c'] = 30;
+    printf("%d\n",mp['c'])
+    
+    //通过迭代器访问
+    for (map<char, int>::iterator it = mp.begin(); it != mp.end(); it++) {
+        printf("%c %d\n",it->first, it->second);
+    }
+    
+    //寻找指定元素
+    map<char, int>:: iterator it = mp.find('b');
+    printf("%c %d\n",it->first, it->second);
+    
+    return 0;
+}
+
+```
+
+*5. Queue*
+- 示例
+```cpp
+#include<stdio.h>
+#include<queue>
+
+using namespace std;
+int main() {
+    queue<int> q;
+    for (int i = 1; i <= 5; i++) {
+        q.push(i);
+    }
+    q.pop();
+    printf("%d %d", q.front(), q.back());
+    if (q.empty() == true) {
+        printf("EMPTY\n");
+    }
+}
+    
+```
+- 优先队列底层是由堆来实现的。
+
+
+
 
 
 

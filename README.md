@@ -127,6 +127,7 @@ PAT (Advanced Level) Practice
 | 1 ｜ [L1-002 打印沙漏 (20 分)](https://pintia.cn/problem-sets/994805046380707840/problems/994805145370476544) | 20  [L1-002](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-002) | C++ | 打印沙漏，主要是计算层数； 了解层数 和 输出的符号及空格的关系；|
 | 2 ｜ [L1-003 个位数统计 (15 分)](https://pintia.cn/problem-sets/994805046380707840/problems/994805143738892288) | 15  [L1-003](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-003) | C++ | 统计 |
 | 3 ｜ [L1-004 计算摄氏温度 (5 分)](https://pintia.cn/problem-sets/994805046380707840/problems/994805142086336512) | 5  [L1-004](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-004) | C++ | 简单 |
+| 4 ｜ [L1-005 考试座位号 (15 分)](https://pintia.cn/problem-sets/994805046380707840/problems/994805140211482624) | 15  [L1-05](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-05) | C++ | 统计 |
 
 ----
 ### C++标准库使用

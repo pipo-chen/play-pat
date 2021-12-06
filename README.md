@@ -121,6 +121,12 @@ PAT (Advanced Level) Practice
 |  ----  | ----  |  ----  | ----  |
 | 1 ｜ [7-1 The Closest Fibonacci Number (20 point(s))](https://pintia.cn/problem-sets/1336189424478273536/problems/1336189514299293696) | 20  [7-1](https://github.com/pipo-chen/play-pat/tree/master/data-structure/7_1) | C++ | 斐波那契数列，寻找与之最接近的值。|
 
+### PAT BASIC 巩固(团队天梯)
+|  题目   | 代码地址  | 语言   | 备注  |
+|  ----  | ----  |  ----  | ----  |
+| 1 ｜ [L1-002 打印沙漏 (20 分)](https://pintia.cn/problem-sets/994805046380707840/problems/994805145370476544) | 20  [L1-002](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-002) | C++ | 打印沙漏，主要是计算层数； 了解层数 和 输出的符号及空格的关系；|
+
+----
 ### C++标准库使用
 *1. Vector*
 - 定义

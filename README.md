@@ -129,6 +129,7 @@ PAT (Advanced Level) Practice
 | 3 ｜ [L1-004 计算摄氏温度 (5 分)](https://pintia.cn/problem-sets/994805046380707840/problems/994805142086336512) | 5  [L1-004](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-004) | C++ | 简单 |
 | 4 ｜ [L1-005 考试座位号 (15 分)](https://pintia.cn/problem-sets/994805046380707840/problems/994805140211482624) | 15  [L1-05](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-05) | C++ | 统计 |
 | 5 ｜ [L1-007 念数字 (10 分)](https://pintia.cn/problem-sets/994805046380707840/problems/994805136889593856) | 10  [L1-007](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-007) | C++ | 数组对应 |
+| 6 ｜ [L1-008 求整数段和 (10 分)](https://pintia.cn/problem-sets/994805046380707840/problems/994805135224455168) | 10  [L1-008](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-008) | C++ | %5d |
 
 ----
 ### C++标准库使用

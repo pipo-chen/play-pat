@@ -130,6 +130,7 @@ PAT (Advanced Level) Practice
 | 4 ｜ [L1-005 考试座位号 (15 分)](https://pintia.cn/problem-sets/994805046380707840/problems/994805140211482624) | 15  [L1-05](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-05) | C++ | 统计 |
 | 5 ｜ [L1-007 念数字 (10 分)](https://pintia.cn/problem-sets/994805046380707840/problems/994805136889593856) | 10  [L1-007](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-007) | C++ | 数组对应 |
 | 6 ｜ [L1-008 求整数段和 (10 分)](https://pintia.cn/problem-sets/994805046380707840/problems/994805135224455168) | 10  [L1-008](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-008) | C++ | %5d |
+| 7 ｜ [L1-009 N个数求和 (20 分)](https://pintia.cn/problem-sets/994805046380707840/problems/994805133597065216) | 17  [L1-009](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-009) | C++ | 分子分母分开计算； 公约数求解；商 |
 
 ----
 ### C++标准库使用

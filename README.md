@@ -132,6 +132,7 @@ PAT (Advanced Level) Practice
 | 6 ｜ [L1-008 求整数段和 (10 分)](https://pintia.cn/problem-sets/994805046380707840/problems/994805135224455168) | 10  [L1-008](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-008) | C++ | %5d |
 | 7 ｜ [L1-009 N个数求和 (20 分)](https://pintia.cn/problem-sets/994805046380707840/problems/994805133597065216) | 17  [L1-009](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-009) | C++ | 分子分母分开计算； 公约数求解；商 |
 | 8 ｜ [L1-013 计算阶乘和 (10 分)](https://pintia.cn/problem-sets/994805046380707840/problems/994805127389495296) | 10  [L1-013](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-009) | C++ | 当前阶乘结果 = 前一个阶乘结果 乘以 当前数字 |
+| 9 ｜ [L1-030 一帮一 (15 分)](https://pintia.cn/problem-sets/994805046380707840/problems/994805103557459968) | 15  [L1-030](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-030) | C++ | 用结构体存储学生对象，从前半段挨个的往后半段去找匹配的性别和对象 |
 
 ----
 ### C++标准库使用

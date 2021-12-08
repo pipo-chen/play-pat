@@ -140,6 +140,7 @@ PAT (Advanced Level) Practice
 | 14 ｜ [L1-011 A-B (20 分)](https://pintia.cn/problem-sets/994805046380707840/problems/994805130426171392) | 20  [L1-011](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-011) | C++ | 字符统计，结果过滤输出 |
 | 15 ｜ [L1-015 跟奥巴马一起画方块 (15 分)](https://pintia.cn/problem-sets/994805046380707840/problems/994805124398956544) | 15  [L1-015](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-015) | C++ | 注意四舍五入 |
 | 16 ｜ [L1-016 查验身份证 (15 分)](https://pintia.cn/problem-sets/994805046380707840/problems/994805122985476096) | 15  [L1-016](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-016) | C++ | 根据题意 注意对应 |
+| 17 ｜ [L1-017 到底有多二 (15 分)](https://pintia.cn/problem-sets/994805046380707840/problems/994805121500692480) | 15  [L1-017](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-017) | C++ | float %.2f会自己进位； 百分号输出:%% |
 
 ----
 ### C++标准库使用

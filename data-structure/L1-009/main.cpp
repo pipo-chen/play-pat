@@ -9,45 +9,39 @@
 #include <iostream>
 
 using namespace::std;
+long long gcd (long long a , long long b) {
+    return b == 0 ? a : gcd(b, a % b);
+}
 
-int main(int argc, const char * argv[]) {
-    int n;
-    scanf("%d",&n);
-    long long sum_mol = 0, sum_denominator = 1, in_part = 0;
+int main() {
+    long long n, a, b, sum_a = 0, sum_b = 1, gcdValue;
+    scanf("%lld", &n);
     for (int i = 0; i < n; i++) {
-        int mol, denominator;
-        scanf("%d/%d",&mol, &denominator);
-        //分母 * 分母 左边分子 * 右边的分母 + 右边分子 * 左边分母
-        sum_mol = sum_mol * denominator + mol * sum_denominator;
-        sum_denominator = sum_denominator * denominator;
-
-        //可以先约分 最后处理整数部分 分母是一定不会为负数的
-        for (long long i = 2; i < sum_denominator / 2; i++) {
-            if (sum_denominator % i == 0 && sum_mol % i == 0) {
-                sum_mol /= i;
-                sum_denominator /= i;
-            }
+        scanf("%lld/%lld", &a, &b);
+        gcdValue = (sum_a == 0 || sum_b == 0) ? 1 : gcd(abs(sum_a), abs(sum_b));
+        sum_b = sum_b / gcdValue;
+        sum_a = sum_a / gcdValue;
+        gcdValue = (a == 0 || b == 0) ? 1 : gcd(abs(a), abs(b));
+        a = a / gcdValue;
+        b = b / gcdValue;
+        sum_a = a * sum_b + sum_a * b;
+        sum_b = b * sum_b;
+    }
+    long long integer = sum_a / sum_b;
+    sum_a = sum_a - (sum_b * integer);
+    gcdValue = (sum_a == 0 || sum_b == 0) ? 1 : gcd(abs(sum_a), abs(sum_b));
+    sum_a = sum_a / gcdValue;
+    sum_b = sum_b / gcdValue;
+    if (integer != 0) {
+        printf("%lld",integer);
+        if (sum_a != 0) {
+            printf(" ");
         }
     }
-    //开始取整
-    int flag = sum_mol < 0 ? -1 : 1;
-    long long cp_mol = sum_mol < 0? sum_mol * -1 : sum_mol;
-    if (cp_mol >= sum_denominator) {
-        in_part = cp_mol / sum_denominator;
+    if (sum_a != 0) {
+        printf("%lld/%lld", sum_a, sum_b);
     }
-    //如果 3/3  这种情况怎么处理 -3/3
-    sum_mol = (cp_mol - sum_denominator * in_part) * flag;
-    if (sum_mol == 0 && in_part == 0) {
-        printf("0\n");
-        return 0;
-    }
-        
-    if (sum_mol == 0)
-        printf("%lld\n",in_part * flag);
-    else if (in_part == 0)
-        printf("%lld/%lld\n",sum_mol,sum_denominator);
-    else
-        printf("%lld %lld/%lld\n",in_part, sum_mol, sum_denominator);
-
+    if (integer == 0 && sum_a == 0)
+        printf("0");
     return 0;
 }

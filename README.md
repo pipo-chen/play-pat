@@ -135,6 +135,8 @@ PAT (Advanced Level) Practice
 | 9 ｜ [L1-030 一帮一 (15 分)](https://pintia.cn/problem-sets/994805046380707840/problems/994805103557459968) | 15  [L1-030](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-030) | C++ | 用结构体存储学生对象，从前半段挨个的往后半段去找匹配的性别和对象 |
 | 10 ｜ [L1-047 装睡 (10 分)](https://pintia.cn/problem-sets/994805046380707840/problems/994805083282194432) | 10  [L1-047](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-047) | C++ | 基础判断 |
 | 11 ｜ [L1-048 矩阵A乘以B (15 分)](https://pintia.cn/problem-sets/994805046380707840/problems/994805082313310208) | 15  [L1-048](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-048) | C++ | 主要考虑 首先确定行列输出，一定是双层循环，其次就是运算结果的数集中的每次数字，都是怎么计算出来的 每次值与当前行列的相关性 |
+| 12 ｜ [L1-010 比较大小 (10 分)](https://pintia.cn/problem-sets/994805046380707840/problems/994805132040978432) | 10  [L1-010](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-010) | C++ | |
+| 13 ｜ [L1-012 计算指数 (5 分)](https://pintia.cn/problem-sets/994805046380707840/problems/994805128870084608) | 5  [L1-012](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-012) | C++ | |
 
 ----
 ### C++标准库使用

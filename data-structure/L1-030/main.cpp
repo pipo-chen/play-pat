@@ -22,11 +22,7 @@ int main(int argc, const char * argv[]) {
     int n;
     cin >> n;
     for (int i = 0; i < n; i++) {
-        int s;
-        string n;
-        cin >> s >> n;
-        students[i].name = n;
-        students[i].sex = s;
+        cin >> students[i].sex >> students[i].name;
         students[i].visit = NOT_VISITED;
     }
     int left = 0, right = n - 1;
@@ -47,3 +43,4 @@ int main(int argc, const char * argv[]) {
     
     return 0;
 }
+

@@ -143,6 +143,7 @@ PAT (Advanced Level) Practice
 | 17 ｜ [L1-017 到底有多二 (15 分)](https://pintia.cn/problem-sets/994805046380707840/problems/994805121500692480) | 15  [L1-017](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-017) | C++ | float %.2f会自己进位； 百分号输出:%% |
 | 18 ｜ [L1-018 大笨钟 (10 分)](https://pintia.cn/problem-sets/994805046380707840/problems/994805119944605696) | 10  [L1-018](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-018) | C++ | 注意输出02d; |
 | 19 ｜ [L1-019 谁先倒 (15 分)](https://pintia.cn/problem-sets/994805046380707840/problems/994805118568873984) | 15  [L1-019](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-019) | C++ | 1. 同输同赢不处理 2. 超过最大酒量才会倒 不是 == max;|
+| 20 ｜ [L1-020 帅到没朋友 (20 分)](https://pintia.cn/problem-sets/994805046380707840/problems/994805117167976448) | 20  [L1-020](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-020) | C++ | 1. 坑：当朋友圈 k = 1 的时候，只做输入不做其他处理|
 
 ----
 ### C++标准库使用

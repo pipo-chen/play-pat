@@ -142,6 +142,7 @@ PAT (Advanced Level) Practice
 | 16 ｜ [L1-016 查验身份证 (15 分)](https://pintia.cn/problem-sets/994805046380707840/problems/994805122985476096) | 15  [L1-016](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-016) | C++ | 根据题意 注意对应 |
 | 17 ｜ [L1-017 到底有多二 (15 分)](https://pintia.cn/problem-sets/994805046380707840/problems/994805121500692480) | 15  [L1-017](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-017) | C++ | float %.2f会自己进位； 百分号输出:%% |
 | 18 ｜ [L1-018 大笨钟 (10 分)](https://pintia.cn/problem-sets/994805046380707840/problems/994805119944605696) | 10  [L1-018](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-018) | C++ | 注意输出02d; |
+| 19 ｜ [L1-019 谁先倒 (15 分)](https://pintia.cn/problem-sets/994805046380707840/problems/994805118568873984) | 15  [L1-019](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-019) | C++ | 1. 同输同赢不处理 2. 超过最大酒量才会倒 不是 == max;|
 
 ----
 ### C++标准库使用

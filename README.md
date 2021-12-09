@@ -146,6 +146,7 @@ PAT (Advanced Level) Practice
 | 20 ｜ [L1-020 帅到没朋友 (20 分)](https://pintia.cn/problem-sets/994805046380707840/problems/994805117167976448) | 20  [L1-020](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-020) | C++ | 1. 坑：当朋友圈 k = 1 的时候，只做输入不做其他处理|
 | 21 ｜ [L1-023 输出GPLT (20 分)](https://pintia.cn/problem-sets/994805046380707840/problems/994805113036587008) | 20  [L1-023](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-023) | C++ | 1. 先用最原始的统计和最原始的按顺序输出的方式完成；|
 | 22 ｜ [L1-080 乘法口诀数列 (20 分)](https://pintia.cn/problem-sets/994805046380707840/problems/1386335159927652359) | 20  [L1-080](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-080) | C++ | 1. 注意数据范围； 2. 注意 a1 跟 a2 每次的取值； 3. 注意特殊情况 0 0|
+| 23 ｜ [L1-079 天梯赛的善良 (20 分)](https://pintia.cn/problem-sets/994805046380707840/problems/1386335159927652358) | 20  [L1-079](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-079) | C++ | |
 
 ----
 ### C++标准库使用

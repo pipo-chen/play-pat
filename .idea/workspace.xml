@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="883f462e-200b-4a38-a2f9-0b3e0363db13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data-structure/L1-075/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-structure/L1-076/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/L1-025/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/L1-027/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/L1-028/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/L1-006/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/L1-007/main.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/data-structure/data-structure.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure/data-structure.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data-structure/data-structure.xcodeproj/project.xcworkspace/xcuserdata/mk.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure/data-structure.xcodeproj/project.xcworkspace/xcuserdata/mk.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
     </list>
@@ -66,6 +69,7 @@
       <workItem from="1638932821098" duration="1428000" />
       <workItem from="1638957027222" duration="5675000" />
       <workItem from="1639015359305" duration="2327000" />
+      <workItem from="1639118693824" duration="684000" />
     </task>
     <servers />
   </component>

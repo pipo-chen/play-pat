@@ -150,6 +150,8 @@ PAT (Advanced Level) Practice
 | 24 ｜ [L1-077 大笨钟的心情 (15 分)](https://pintia.cn/problem-sets/994805046380707840/problems/1386335159927652356) | 15  [L1-077](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-077) | C++ | |
 | 25 ｜ [L1-076 降价机器人 (10 分)](https://pintia.cn/problem-sets/994805046380707840/problems/1386335159927652356) | 10  [L1-076](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-076) | C++ | |
 | 26 ｜ [L1-075 强迫症 (10 分)](https://pintia.cn/problem-sets/994805046380707840/problems/1386335159927652356) | 10  [L1-076](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-075) | C++ | |
+| 27 ｜ [L1-027 出租 (20 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/994805107638517760) | 20  [L1-027](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-027) | C++ |  下标统计 |
+| 28 ｜ [L1-028 判断素数 (10 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/994805106325700608) | 10  [L1-028](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-028) | C++ |  1 不是素数； 其次 <= sqrt() 例如 4； 最后 2 也是素数 默认进入循环之前 true |
 
 ----
 ### C++标准库使用

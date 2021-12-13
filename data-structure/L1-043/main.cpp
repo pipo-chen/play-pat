@@ -7,10 +7,12 @@
 //
 
 #include <iostream>
+#include <algorithm>
+//最后的值还要四舍五入
 using namespace::std;
 
 int main() {
-    int minutes[1010] = {0}, n, day = 0;
+    int minutes[1010] = {-1}, n, day = 0;
     cin >> n;
     int total_time = 0, total_count = 0;;
     while (day < n) {
@@ -20,6 +22,7 @@ int main() {
         
         if (index == 0) {
             //计算平均数
+            day++;
             if (total_count != 0)
                 printf("%d %.f\n", total_count, total_time * 1.0/total_count);
             else
@@ -27,13 +30,11 @@ int main() {
             total_time = 0;
             total_count = 0;
             for (int i = 0; i < 1010; i++)
-                minutes[i] = 0;
+                minutes[i] = -1;
         } else {
             if (ope == 'S') {
                 minutes[index] = begin * 60 + end;
-            }
-            //要有还才可以
-            if (ope == 'E' && minutes[index] != 0) {
+            } else if (ope == 'E' && minutes[index] != -1) {
                 total_time += begin * 60 + end - minutes[index];
                 total_count++;
             }

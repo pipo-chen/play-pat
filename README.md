@@ -155,6 +155,7 @@ PAT (Advanced Level) Practice
 | 29 ｜ [L1-031 到底是不是太胖了 (10 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/994805102173339648) | 10  [L1-031](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-031) | C++ | 已经是标准体重的时候 不需要在做 *0.9 和 *1.1 的操作 |
 | 30 ｜ [L1-032 Left-pad (20 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/994805100684361728) | 20  [L1-032](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-032) | C++ | 1. 字符串读入之前，getchar() cin.getline(str, 100010) 2. 注意字符串分配的空间 3. 思路：先把要补足的字符进行打印(循环 diff > 0) 其次再打印实际内容 |
 | 31 ｜ [L1-033 出生年 (15 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/994805099426070528) | 15  [L1-033](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-033) | C++ | 主要是前面不足数字位，将有 0 需纳入统计 |
+| 32 ｜ [L1-034 点赞 (20 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/994805098188750848) | 20  [L1-034](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-034) | C++ | 桶 统计 |
 
 ----
 ### C++标准库使用

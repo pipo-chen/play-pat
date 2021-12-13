@@ -13,26 +13,22 @@ using namespace ::std;
 int main(int argc, const char * argv[]) {
     int num;
     char c;
-    char str[10010];
+    string str;
     cin >> num >> c;
     getchar();
-    cin.getline(str, 10010);
-    //必须要知道 str 的length
-    int length = 0;
-    while (str[length] != '\0') {
-        length++;
+    getline(cin, str);
+    //通过 str.size()直接可知长度
+    if (str.size() < num) {
+        //补位
+        for (int i = 0; i < num - str.size(); i++)
+            cout << c;
+        //然后输出整个字符串
+        cout << str;
+    } else {
+        //否则 长度超过 指选择部分
+        for (long i = str.size() - num; i < str.size(); i++)
+            cout << str[i];
     }
-    //判断是否需要补位
-    int diff = num - length;
-    while (diff > 0) {
-        cout << c;
-        diff--;
-    }
-    //开始输出所需长度
-    int need = length > num ? num : length;
-    for (int i = length - need; i < length; i++) {
-        cout << str[i];
-    }
+
     return 0;
-    
 }

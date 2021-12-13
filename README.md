@@ -157,6 +157,7 @@ PAT (Advanced Level) Practice
 | 31 ｜ [L1-033 出生年 (15 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/994805099426070528) | 15  [L1-033](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-033) | C++ | 主要是前面不足数字位，将有 0 需纳入统计 |
 | 32 ｜ [L1-034 点赞 (20 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/994805098188750848) | 20  [L1-034](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-034) | C++ | 桶 统计 |
 | 33 ｜ [L1-035 情人节 (15 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/994805097018540032) | 15  [L1-035](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-035) | C++ | 注意循环不通过的 "." 那会count已为 2 |
+| 34 ｜ [L1-039 古风排版 (20 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/994805091888906240) | 20  [L1-039](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-039) | C++ | 1. 算出总列数 2. 根据行列控制下标输出，注意下标超出情况输出空字符 |
 
 ----
 ### C++标准库使用

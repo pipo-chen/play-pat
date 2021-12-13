@@ -114,7 +114,7 @@ PAT (Advanced Level) Practice
 | 4 ｜ [1056 组合数的和 (15 point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805271455449088) | 15  [1056](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1056) | C++ |  简单题 排列组合|
 | 5 ｜ [1057 数零壹 (20 point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805270914383872) | 17  [1057](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1057) | C++ |  🙅：运行超时  字母转数字：'a' - 'a' = 0; 提高运行时间：把大写转成小写之后再进行求和，直接改成 大写的 -'A'+1 小写的 -'a'+1 进行求和提高运行效率。|
 | 6 ｜ [1076 Wifi密码 (15 point(s))](https://pintia.cn/problem-sets/994805260223102976/problems/994805262622244864) | 15  [1076](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1076) | C++ |  1. 字母转换 letter - 'A'; 2. 第一轮的时候 scanf 会多获取一个换行键 所以需要遍历 5 次 而非 4 次，否则最后一个选项将无法读取进入|
-
+| 7 ｜ [1091 N-自守数 (15 分)](https://pintia.cn/problem-sets/994805260223102976/problems/1071785664454127616) | 15  [1091](https://github.com/pipo-chen/play-pat/tree/master/data-structure/1091) | C++ |  挨个的取出末尾数字比较是否两两相等即可|
 
 ### PAT 甲级真题练习
 |  题目   | 代码地址  | 语言   | 备注  |

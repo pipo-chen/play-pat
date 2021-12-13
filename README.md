@@ -153,6 +153,7 @@ PAT (Advanced Level) Practice
 | 27 ｜ [L1-027 出租 (20 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/994805107638517760) | 20  [L1-027](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-027) | C++ |  下标统计 |
 | 28 ｜ [L1-028 判断素数 (10 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/994805106325700608) | 10  [L1-028](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-028) | C++ |  1 不是素数； 其次 <= sqrt() 例如 4； 最后 2 也是素数 默认进入循环之前 true |
 | 29 ｜ [L1-031 到底是不是太胖了 (10 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/994805102173339648) | 10  [L1-031](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-031) | C++ | 已经是标准体重的时候 不需要在做 *0.9 和 *1.1 的操作 |
+| 30 ｜ [L1-032 Left-pad (20 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/994805100684361728) | 20  [L1-032](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-032) | C++ | 1. 字符串读入之前，getchar() cin.getline(str, 100010) 2. 注意字符串分配的空间 3. 思路：先把要补足的字符进行打印(循环 diff > 0) 其次再打印实际内容 |
 
 ----
 ### C++标准库使用

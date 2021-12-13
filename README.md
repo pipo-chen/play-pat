@@ -156,6 +156,7 @@ PAT (Advanced Level) Practice
 | 30 ｜ [L1-032 Left-pad (20 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/994805100684361728) | 20  [L1-032](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-032) | C++ | 1. 字符串读入之前，getchar() cin.getline(str, 100010) 2. 注意字符串分配的空间 3. 思路：先把要补足的字符进行打印(循环 diff > 0) 其次再打印实际内容 |
 | 31 ｜ [L1-033 出生年 (15 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/994805099426070528) | 15  [L1-033](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-033) | C++ | 主要是前面不足数字位，将有 0 需纳入统计 |
 | 32 ｜ [L1-034 点赞 (20 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/994805098188750848) | 20  [L1-034](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-034) | C++ | 桶 统计 |
+| 33 ｜ [L1-035 情人节 (15 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/994805097018540032) | 15  [L1-035](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-035) | C++ | 注意循环不通过的 "." 那会count已为 2 |
 
 ----
 ### C++标准库使用

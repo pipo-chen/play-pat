@@ -183,6 +183,7 @@ PAT (Advanced Level) Practice
 | 39 ｜ [L1-068 调和平均 (10 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/1336215880692482051) | 10  [L1-068](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-068) | C++ | |
 | 40 ｜ [L1-067 洛希极限 (10 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/1336215880692482050) | 10  [L1-067](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-067) | C++ | |
 | 41 ｜ [L1-064 估值一亿的AI核心代码 (20 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/1111914599412858885) | 13  [L1-064](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-064) | C++ |检查特殊字符：ispunct(character) |
+| 42 ｜ [L1-063 吃鱼还是吃肉 (10 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/1111914599412858884) | 10  [L1-063](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-063) | C++ ||
 
 ----
 ### C++标准库使用

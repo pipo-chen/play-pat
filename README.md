@@ -160,7 +160,7 @@ PAT (Advanced Level) Practice
 | 34 ｜ [L1-039 古风排版 (20 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/994805091888906240) | 20  [L1-039](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-039) | C++ | 1. 算出总列数 2. 根据行列控制下标输出，注意下标超出情况输出空字符 |
 | 35 ｜ [L1-043 阅览室 (20 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/994805087447138304) | 17  [L1-043](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-043) | C++ | 判断状态主要是当前图书借阅状态且跟操作符借、还对应，还的时候统计分钟。2. 一天结束的时候清空原记录 |
 | 36 ｜ [L1-071 前世档案 (20 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/1336215880692482054) | 20  [L1-071](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-071) | C++ | 二分搜索 |
-| 37 ｜ [L1-070 吃火锅 (15 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/1336215880692482053) | 15  [L1-070](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-070) | C++ | cpp 字符串搜索 ： a.find(b) 如果存在 则返回开始的下标； 不存在则 a.find(b) == string::npos |
+| 37 ｜ [L1-070 吃火锅 (15 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/1336215880692482053) | 15  [L1-070](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-070) | C++ | cpp 字符串搜索 ： a.find(b) 如果存在 则返回开始的下标； 不存在 a.find(b) == string::npos |
 
 ----
 ### C++标准库使用

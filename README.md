@@ -180,7 +180,8 @@ PAT (Advanced Level) Practice
 | 36 ｜ [L1-071 前世档案 (20 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/1336215880692482054) | 20  [L1-071](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-071) | C++ | 二分搜索 |
 | 37 ｜ [L1-070 吃火锅 (15 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/1336215880692482053) | 15  [L1-070](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-070) | C++ | cpp 字符串搜索 ： a.find(b) 如果存在 则返回开始的下标；不存在 a.find(b) == string::npos |
 | 38 ｜ [L1-069 胎压监测 (15 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/1336215880692482052) | 15  [L1-069](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-069) | C++ | 注意满足胎压的条件 最小要超过max-阈值 && 超过最小值|
-
+| 39 ｜ [L1-068 调和平均 (10 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/1336215880692482051) | 10  [L1-068](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-068) | C++ | |
+| 40 ｜ [L1-067 洛希极限 (10 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/1336215880692482050) | 10  [L1-067](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-067) | C++ | |
 ----
 ### C++标准库使用
 *1. Vector*

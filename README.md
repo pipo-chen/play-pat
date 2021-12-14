@@ -4,15 +4,10 @@
 PAT (Advanced Level) Practice
 
 目录
-
-- [数据结构起步能力自测题](https://github.com/pipo-chen/play-pat#%E6%B5%99%E5%A4%A7pta-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E8%B5%B7%E6%AD%A5%E8%83%BD%E5%8A%9B%E8%87%AA%E6%B5%8B%E9%A2%98)  
-
-- [入门篇（1）- 入门模拟](https://github.com/pipo-chen/play-pat#%E6%B5%99%E5%A4%A7pta-%E5%85%A5%E9%97%A8%E7%AF%871--%E5%85%A5%E9%97%A8%E6%A8%A1%E6%8B%9F)  
-
-- [入门篇（2）- 入门模拟(查找元素)](https://github.com/pipo-chen/play-pat#%E5%85%A5%E9%97%A8%E7%AF%872--%E5%85%A5%E9%97%A8%E6%A8%A1%E6%8B%9F%E6%9F%A5%E6%89%BE%E5%85%83%E7%B4%A0)  
-
-- [入门篇（3）- 入门模拟(图形输出)](https://github.com/pipo-chen/play-pat#%E5%85%A5%E9%97%A8%E7%AF%873--%E5%85%A5%E9%97%A8%E6%A8%A1%E6%8B%9F%E5%9B%BE%E5%BD%A2%E8%BE%93%E5%87%BA)  
-
+- [数据结构起步能力自测题](https://github.com/pipo-chen/play-pat#%E6%B5%99%E5%A4%A7pta-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E8%B5%B7%E6%AD%A5%E8%83%BD%E5%8A%9B%E8%87%AA%E6%B5%8B%E9%A2%98)
+- [入门篇（1）- 入门模拟](https://github.com/pipo-chen/play-pat#%E6%B5%99%E5%A4%A7pta-%E5%85%A5%E9%97%A8%E7%AF%871--%E5%85%A5%E9%97%A8%E6%A8%A1%E6%8B%9F)
+- [入门篇（2）- 入门模拟(查找元素)](https://github.com/pipo-chen/play-pat#%E5%85%A5%E9%97%A8%E7%AF%872--%E5%85%A5%E9%97%A8%E6%A8%A1%E6%8B%9F%E6%9F%A5%E6%89%BE%E5%85%83%E7%B4%A0)
+- [入门篇（3）- 入门模拟(图形输出)](https://github.com/pipo-chen/play-pat#%E5%85%A5%E9%97%A8%E7%AF%873--%E5%85%A5%E9%97%A8%E6%A8%A1%E6%8B%9F%E5%9B%BE%E5%BD%A2%E8%BE%93%E5%87%BA)
 - [入门篇（4）- 入门模拟(日期处理）](https://github.com/pipo-chen/play-pat#%E5%85%A5%E9%97%A8%E7%AF%874--%E5%85%A5%E9%97%A8%E6%A8%A1%E6%8B%9F%E6%97%A5%E6%9C%9F%E5%A4%84%E7%90%86)  
 - [入门篇（5）- 入门模拟(字符串处理）](https://github.com/pipo-chen/play-pat#%E5%85%A5%E9%97%A8%E7%AF%875--%E5%85%A5%E9%97%A8%E6%A8%A1%E6%8B%9F%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%A4%84%E7%90%86)
 - [算法初步 - （1）排序](https://github.com/pipo-chen/play-pat#%E7%AE%97%E6%B3%95%E5%88%9D%E6%AD%A5---1%E6%8E%92%E5%BA%8F)

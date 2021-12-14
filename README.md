@@ -158,7 +158,8 @@ PAT (Advanced Level) Practice
 | 32 ｜ [L1-034 点赞 (20 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/994805098188750848) | 20  [L1-034](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-034) | C++ | 桶 统计 |
 | 33 ｜ [L1-035 情人节 (15 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/994805097018540032) | 15  [L1-035](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-035) | C++ | 注意循环不通过的 "." 那会count已为 2 |
 | 34 ｜ [L1-039 古风排版 (20 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/994805091888906240) | 20  [L1-039](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-039) | C++ | 1. 算出总列数 2. 根据行列控制下标输出，注意下标超出情况输出空字符 |
-| 35 ｜ [L1-043 阅览室 (20 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/994805087447138304) | 14  [L1-043](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-043) | C++ | 判断状态主要是当前图书借阅状态且跟操作符借、还对应，还的时候统计分钟。2. 一天结束的时候清空原记录 |
+| 35 ｜ [L1-043 阅览室 (20 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/994805087447138304) | 17  [L1-043](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-043) | C++ | 判断状态主要是当前图书借阅状态且跟操作符借、还对应，还的时候统计分钟。2. 一天结束的时候清空原记录 |
+| 36 ｜ [L1-071 前世档案 (20 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/1336215880692482054) | 20  [L1-071](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-071) | C++ | 二分搜索 |
 
 ----
 ### C++标准库使用

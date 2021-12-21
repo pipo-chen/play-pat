@@ -8,58 +8,50 @@
 
 #include <iostream>
 #include <math.h>
+#include <algorithm>
 using namespace::std;
+const int maxn = 100010;
 struct Node {
-    int next_add;
-    int value;
-} List[100010];
-//头节点地址 节点数量
+    int address, key, next, num;
+}node[maxn];
+
+bool exist[maxn];
+
+bool cmp(Node a, Node b) {
+    return a.num < b.num;
+}
+
 int main(int argc, const char * argv[]) {
-    int add, n;
-    int del[100010], count = 0, ref[100010];
-    fill(ref, ref + 100010, 0);
-    cin >> add >> n;
+    int begin, n, cnt1 = 0, cnt2 = 0, a;
+    cin >> begin >> n;
+    for (int i = 0; i < maxn; i++) {
+        node[i].num = 2 * maxn;
+    }
     for (int i = 0; i < n; i++) {
-        int cur, value, next;
-        cin >> cur >> value >> next;
-        List[cur].value = value;
-        List[cur].next_add = next;
-    };
-    int next_traget = List[add].next_add;
-    int last_value = List[add].value;
-    for (int j = 0; j < n; j++) {
-        if (j == 0 ) {
-            printf("%05d %d ",add, last_value);
-            ref[abs(last_value)] = 1;
-        } else {
-            //判断
-            if (ref[abs(List[next_traget].value)] != 0) {
-                //跳过
-                ref[abs(List[next_traget].value)] = 1;
-                del[count++] = next_traget;
-                next_traget = List[next_traget].next_add;
-               
-                } else {
-                    //输出
-                    printf("%05d\n",next_traget);
-                    printf("%05d %d ",next_traget, List[next_traget].value);
-                    ref[abs(List[next_traget].value)] = 1;
-                    next_traget = List[next_traget].next_add;
-                    
-                }
-        }
+        cin >> a;
+        cin >> node[a].key >> node[a].next;
+        node[a].address = a;
     }
-    printf("-1\n");
-    //输出被删除的列表
-    for (int i = 0; i < count; i++) {
-        if (i == 0)
-            printf("%05d %d ", del[i], List[del[i]].value);
-        else {
-            printf("%05d\n", del[i]);
-            printf("%05d %d ",del[i], List[del[i]].value);
-        }
-    }
-    printf("-1\n");
     
+    for (int i = begin; i != -1; i = node[i].next) {
+        if (exist[abs(node[i].key)] == false) {
+            exist[abs(node[i].key)] = true;
+            node[i].num = cnt1++;
+        } else {
+            node[i].num = maxn + cnt2;
+            cnt2++;
+        }
+    }
+    
+    int cnt = cnt1 + cnt2;
+    //根据 num 进行排序
+    sort(node, node + maxn, cmp);
+    for (int i = 0; i < cnt; i++) {
+        if (i != cnt1 - 1 && i != cnt - 1)
+            printf("%05d %d %05d\n",node[i].address, node[i].key, node[i+1].address);
+        else
+            printf("%05d %d -1\n",node[i].address, node[i].key);
+    }
     return 0;
 }
+  

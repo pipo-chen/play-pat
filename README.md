@@ -188,6 +188,7 @@ PAT (Advanced Level) Practice
 | 44 ｜ [L1-061 新胖子公式 (10 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/1111914599412858882) | 10  [L1-061](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-061) | C++ ||
 | 45 ｜ [L1-046 整除光棍 (20 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/994805084284633088) | 14  [L1-046](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-046) | C++ | 每次乘以 10 + 1 会造成数据溢出； |
 | 46 ｜ [L1-056 猜数字 (20 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/994805074646122496) | 20  [L1-56](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-56) | C++ | #include <algorithm>; sort(students, students+n, cmp) |
+| 47 ｜ [L2-002 链表去重 (25 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/994805072641245184) | 13  [L2-002](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L2-002) | C++ | 顺序存储 |
 
 ----
 ### C++标准库使用

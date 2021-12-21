@@ -30,13 +30,15 @@ int main(int argc, const char * argv[]) {
     for (int j = 0; j < n; j++) {
         if (j == 0 ) {
             printf("%05d %d ",add, last_value);
+            ref[abs(last_value)] = 1;
         } else {
             //判断
             if (ref[abs(List[next_traget].value)] != 0) {
                 //跳过
+                ref[abs(List[next_traget].value)] = 1;
                 del[count++] = next_traget;
                 next_traget = List[next_traget].next_add;
-                
+               
                 } else {
                     //输出
                     printf("%05d\n",next_traget);

@@ -27,6 +27,7 @@ int main(int argc, const char * argv[]) {
     for (int j = 0; j < maxn; j++) {
         //排序皆为最大
         node[j].num = 2 * maxn;
+        exist[j] = false;
     }
     
     for (int i = 0; i < n; i++) {
@@ -51,13 +52,13 @@ int main(int argc, const char * argv[]) {
     }
     //开始排序输出
     sort(node, node + maxn, cmp);
-    //前端 跟 后端
+    
     for (int j = 0; j < n; j++) {
         //输出 cnt1 然后再输出 cnt2 从begin 开始
-        if (j == cnt1 - 1 || j == n - 1)
-            printf("%05d %d -1\n",node[j].address, node[j].value);
-        else
+        if (j != cnt1 - 1 && j != n - 1)
             printf("%05d %d %05d\n",node[j].address, node[j].value, node[j+1].address);
+        else
+            printf("%05d %d -1\n",node[j].address, node[j].value);
     }
 }
   

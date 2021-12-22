@@ -12,7 +12,7 @@
 using namespace::std;
 const int maxn = 100010;
 struct Node {
-    int address, key, next, num;
+    int address, value, next, num;
 }node[maxn];
 
 bool exist[maxn];
@@ -22,36 +22,42 @@ bool cmp(Node a, Node b) {
 }
 
 int main(int argc, const char * argv[]) {
-    int begin, n, cnt1 = 0, cnt2 = 0, a;
+    int begin, n;
     cin >> begin >> n;
-    for (int i = 0; i < maxn; i++) {
-        node[i].num = 2 * maxn;
-    }
-    for (int i = 0; i < n; i++) {
-        cin >> a;
-        cin >> node[a].key >> node[a].next;
-        node[a].address = a;
+    for (int j = 0; j < maxn; j++) {
+        //排序皆为最大
+        node[j].num = 2 * maxn;
     }
     
+    for (int i = 0; i < n; i++) {
+        //开始输入节点 初始化 当前地址 值 下一个地址
+        int add;
+        cin >> add;
+        node[add].address = add;
+        cin >> node[add].value >> node[add].next;
+    }
+    //输入完成之后 开始比较 是否存在
+    int cnt1 = 0, cnt2 = 0;
     for (int i = begin; i != -1; i = node[i].next) {
-        if (exist[abs(node[i].key)] == false) {
-            exist[abs(node[i].key)] = true;
-            node[i].num = cnt1++;
-        } else {
+        //绝对值 value
+        if (exist[abs(node[i].value)]) {
+            //说明存在
             node[i].num = maxn + cnt2;
             cnt2++;
+        } else {
+            exist[abs(node[i].value)] = true;
+            node[i].num = cnt1++;
         }
     }
-    
-    int cnt = cnt1 + cnt2;
-    //根据 num 进行排序
+    //开始排序输出
     sort(node, node + maxn, cmp);
-    for (int i = 0; i < cnt; i++) {
-        if (i != cnt1 - 1 && i != cnt - 1)
-            printf("%05d %d %05d\n",node[i].address, node[i].key, node[i+1].address);
+    //前端 跟 后端
+    for (int j = 0; j < n; j++) {
+        //输出 cnt1 然后再输出 cnt2 从begin 开始
+        if (j == cnt1 - 1 || j == n - 1)
+            printf("%05d %d -1\n",node[j].address, node[j].value);
         else
-            printf("%05d %d -1\n",node[i].address, node[i].key);
+            printf("%05d %d %05d\n",node[j].address, node[j].value, node[j+1].address);
     }
-    return 0;
 }
   

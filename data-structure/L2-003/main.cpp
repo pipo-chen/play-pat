@@ -12,7 +12,8 @@ using namespace ::std;
 
 struct Cake {
     float price;
-    int capacity;
+    float total;
+    float capacity;
 }cake[1010];
 
 bool cmp(Cake a, Cake b) {
@@ -21,32 +22,29 @@ bool cmp(Cake a, Cake b) {
 int main(int argc, const char * argv[]) {
     int n, demand;
     cin >> n >> demand;
-    
+
     for (int i = 0; i < n; i++) {
         cin >> cake[i].capacity;
     }
     for (int i = 0; i < n; i++) {
-        int p;
-        cin >> p;
-        cake[i].price = p * 1.0 / cake[i].capacity;
+        cin >> cake[i].total;
+        cake[i].price = cake[i].total / cake[i].capacity;
     }
     sort(cake, cake + 1010, cmp);
     //优先卖贵的
-    int give = 0, type = 0;
     float pay = 0;
-    while (give < demand) {
-        if (cake[type].capacity + give <= demand) {
-            give += cake[type].capacity;
-            pay += cake[type].capacity * cake[type].price;
-            type++;
+    //还有一种可能 供不应求 或者 供给全满了也满足不了
+    for (int i = 0; i < n; i++) {
+        if (cake[i].capacity <= demand) {
+            pay = pay + cake[i].total;
         } else {
             //多了 只取需要的
-            int diff = demand - give;
-            pay += diff * cake[type].price;
+            pay = pay + demand * cake[i].price;
             break;
         }
+        demand = demand - cake[i].capacity;
     }
-    printf("%.2f\n",pay);
+    printf("%.2f",pay);
     
     return 0;
 }

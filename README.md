@@ -190,6 +190,7 @@ PAT (Advanced Level) Practice
 | 46 ｜ [L1-056 猜数字 (20 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/994805074646122496) | 20  [L1-56](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L1-56) | C++ | #include <algorithm>; sort(students, students+n, cmp) |
 | 47 ｜ [L2-002 链表去重 (25 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/994805072641245184) | 20  [L2-002](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L2-002) | C++ | 顺序存储 ; 按方法一：判断完ref 参照数组之后 及时更新值的情况； 柳神方法：整体统计要输出及删除项，通过 num 大小进行排序 默认num 项 2 * maxn 这样删除的位于(maxn , 2 * maxn) 保留的 (0, maxn)|
 | 48 ｜ [L2-003 月饼 (25 point(s))](https://pintia.cn/problem-sets/994805046380707840/problems/994805071789801472) | 21  [L2-003](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L2-003) | C++ | 1. 按单价排序，优先卖贵的 2. 循环的时候type < n 也有全卖完了也无法满足需求的情况 否则会段错误；坑爹⚠️第三个测试用例：float capacity; 为了减少运算过程中的损耗，需要将数量、总价、单价统一定义成 float 类型|
+| 49 ｜ [L2-005 集合相似度 (25 分)](https://pintia.cn/problem-sets/994805046380707840/problems/994805070149828608) | 25  [L2-005](https://github.com/pipo-chen/play-pat/tree/master/data-structure/L2-005) | C++ | 1. 题意： 公共元素个数 / 列表1所有去重元素长度 + 列表2所有去重元素长度； set 的使用1. set<int> s; 2. s.insert(value); 3. for (const int & temp : s); 4. s1.find(data) == s2.end()|
 
 ----
 ### C++标准库使用

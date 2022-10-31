@@ -138,7 +138,8 @@ PAT (Advanced Level) Practice
 |  题目   | 代码地址  | 语言   | 备注  |
 |  ----  | ----  |  ----  | ----  |
 | 1 ｜ [7-1 The Closest Fibonacci Number (20 point(s))](https://pintia.cn/problem-sets/1336189424478273536/problems/1336189514299293696) | 20  [7-1](https://github.com/pipo-chen/play-pat/tree/master/data-structure/7_1) | C++ | 斐波那契数列，寻找与之最接近的值。|
-| 1 ｜ [1051 Pop Sequence (25 point(s))](https://pintia.cn/problem-sets/994805342720868352/problems/994805427332562944) | 25  [1051](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1051) | C++ | 步骤：1）将要输入的序列放入数组 2)a.判断是否超过栈空间，超过直接break b.按顺序入栈，如果当前栈顶元素跟当前数组指向位置相等，则出栈 3) 循环结束，判断数组有没有走完，走完则YES |
+| 2 ｜ [1051 Pop Sequence (25 point(s))](https://pintia.cn/problem-sets/994805342720868352/problems/994805427332562944) | 25  [1051](https://github.com/pipo-chen/play-pat/tree/master/data-structure/A1051) | C++ | 步骤：1）将要输入的序列放入数组 2)a.判断是否超过栈空间，超过直接break b.按顺序入栈，如果当前栈顶元素跟当前数组指向位置相等，则出栈 3) 循环结束，判断数组有没有走完，走完则YES |
+| 3 ｜ [1006 Sign In and Sign Out (25 point(s))](https://pintia.cn/problem-sets/994805342720868352/exam/problems/994805516654460928) | 25  [1006](https://github.com/pipo-chen/play-pat/tree/master/data-structure/AA1006) | C++ | 将开始时间和结束时间统一转换成秒，进行大小比对|
 
 ### PAT BASIC 巩固(团队天梯)
 |  题目   | 代码地址  | 语言   | 备注  |
